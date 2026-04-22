@@ -1,0 +1,7148 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Princess Cadence",
+			"rarity": "mythic",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Legendary Creature — Alicorn",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/0.jpg"
+			}
+		},
+		{
+			"name": "Absorb Friendship",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/1.jpg"
+			}
+		},
+		{
+			"name": "Age Spell",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/2.jpg"
+			}
+		},
+		{
+			"name": "Copy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/3.jpg"
+			}
+		},
+		{
+			"name": "Food",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Food",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/4.jpg"
+			}
+		},
+		{
+			"name": "Alicorn Amulet",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/5.jpg"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/6.jpg"
+			}
+		},
+		{
+			"name": "Vindictive Glare",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/7.jpg"
+			}
+		},
+		{
+			"name": "Apple Acres",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "460",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/8.jpg"
+			}
+		},
+		{
+			"name": "Animal Sanctuary",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "459",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/9.jpg"
+			}
+		},
+		{
+			"name": "Apple Dumpling",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Pony",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/10.jpg"
+			}
+		},
+		{
+			"name": "Apple Rose",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/11.jpg"
+			}
+		},
+		{
+			"name": "Apple Strudel",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/12.jpg"
+			}
+		},
+		{
+			"name": "Apples To The Core",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Enchantment",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/13.jpg"
+			}
+		},
+		{
+			"name": "Auntie Applesauce",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/14.jpg"
+			}
+		},
+		{
+			"name": "Breeezie Village",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "462",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/15.jpg"
+			}
+		},
+		{
+			"name": "Command Tower",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "468",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/16.jpg"
+			}
+		},
+		{
+			"name": "Changeling Hive",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "464",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/17.jpg"
+			}
+		},
+		{
+			"name": "Chaosville",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "465",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/18.jpg"
+			}
+		},
+		{
+			"name": "Chilling Monologue",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/19.jpg"
+			}
+		},
+		{
+			"name": "Clone Burst",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/20.jpg"
+			}
+		},
+		{
+			"name": "Cloud Stadium",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "466",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/21.jpg"
+			}
+		},
+		{
+			"name": "Cloudsdale",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "467",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/22.jpg"
+			}
+		},
+		{
+			"name": "Corrupted Forest",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "469",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/23.jpg"
+			}
+		},
+		{
+			"name": "Desolate Future",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "470",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/24.jpg"
+			}
+		},
+		{
+			"name": "Dragon Lands",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "471",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/25.jpg"
+			}
+		},
+		{
+			"name": "Everfree Forest",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "473",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/26.jpg"
+			}
+		},
+		{
+			"name": "Field of Poison Joke",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "474",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/27.jpg"
+			}
+		},
+		{
+			"name": "Flame Geyser Swamp",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "475",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/28.jpg"
+			}
+		},
+		{
+			"name": "Florina Tart",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "288",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/29.jpg"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "476",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/30.jpg"
+			}
+		},
+		{
+			"name": "Griffonstone",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "478",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/31.jpg"
+			}
+		},
+		{
+			"name": "Hayseed Swamp",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "479",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/32.jpg"
+			}
+		},
+		{
+			"name": "Hidden Grotto",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "480",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/33.jpg"
+			}
+		},
+		{
+			"name": "Hondo Flanks & Cookie Crumbles",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/34.jpg"
+			}
+		},
+		{
+			"name": "King Guto's Final Reign",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Enchantment — Saga",
+			"collector_number": "364",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/35.jpg"
+			}
+		},
+		{
+			"name": "Las Pegasus",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "484",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/36.jpg"
+			}
+		},
+		{
+			"name": "Manehatten",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "485",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/37.jpg"
+			}
+		},
+		{
+			"name": "Maretropolis",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "486",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/38.jpg"
+			}
+		},
+		{
+			"name": "Mistmane's Escape",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/39.jpg"
+			}
+		},
+		{
+			"name": "Mount Aris",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "487",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/40.jpg"
+			}
+		},
+		{
+			"name": "Mount Everhoof",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "488",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/41.jpg"
+			}
+		},
+		{
+			"name": "Nightmare Moon",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Legendary Enchantment Creature — Alicorn",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/42.jpg"
+			}
+		},
+		{
+			"name": "Peachy Sweet",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "304",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/43.jpg"
+			}
+		},
+		{
+			"name": "Peaks of Peril",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "492",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/44.jpg"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "493",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/45.jpg"
+			}
+		},
+		{
+			"name": "Ponyville",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "495",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/46.jpg"
+			}
+		},
+		{
+			"name": "Ponyville School",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "496",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/47.jpg"
+			}
+		},
+		{
+			"name": "Rainbownado",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/48.jpg"
+			}
+		},
+		{
+			"name": "Rock Farm",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "497",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/49.jpg"
+			}
+		},
+		{
+			"name": "Saddle Lake",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "498",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/50.jpg"
+			}
+		},
+		{
+			"name": "Somnambula Village",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "501",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/51.jpg"
+			}
+		},
+		{
+			"name": "Somnambula's Reign",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "312",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/52.jpg"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "503",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/53.jpg"
+			}
+		},
+		{
+			"name": "The Binding of Nightmare Moon",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/54.jpg"
+			}
+		},
+		{
+			"name": "The Founding of Ecandya",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "291",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/55.jpg"
+			}
+		},
+		{
+			"name": "Winona",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Legendary Creature — Dog",
+			"collector_number": "318",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/56.jpg"
+			}
+		},
+		{
+			"name": "Apple Flora & Candy Caramel Tooth",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Pony Filly",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/57.jpg"
+			}
+		},
+		{
+			"name": "Apple Bumpkin",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/58.jpg"
+			}
+		},
+		{
+			"name": "Apple Bloom",
+			"rarity": "rare",
+			"mana_cost": "{G/W}",
+			"type": "Legendary Creature — Pony Filly",
+			"collector_number": "423",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/59.jpg"
+			}
+		},
+		{
+			"name": "Applejack",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "322",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/60.jpg"
+			}
+		},
+		{
+			"name": "Apple Cider",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Pony",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/61.jpg"
+			}
+		},
+		{
+			"name": "Apple Fritter",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/62.jpg"
+			}
+		},
+		{
+			"name": "Apple Honey",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/63.jpg"
+			}
+		},
+		{
+			"name": "Apple Leaves",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/64.jpg"
+			}
+		},
+		{
+			"name": "Babs Seed",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Pony Filly",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/65.jpg"
+			}
+		},
+		{
+			"name": "Big Mac",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/66.jpg"
+			}
+		},
+		{
+			"name": "Braeburn",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/67.jpg"
+			}
+		},
+		{
+			"name": "Bright Mac & Pear Butter",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "326",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/68.jpg"
+			}
+		},
+		{
+			"name": "Caramel Apple",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/69.jpg"
+			}
+		},
+		{
+			"name": "Cherry Jubilee",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/70.jpg"
+			}
+		},
+		{
+			"name": "Daring Do",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "339",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/71.jpg"
+			}
+		},
+		{
+			"name": "Decisive Battle",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/72.jpg"
+			}
+		},
+		{
+			"name": "Dr. Fauna",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Pony",
+			"collector_number": "344",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/73.jpg"
+			}
+		},
+		{
+			"name": "Eat Up",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "284",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/74.jpg"
+			}
+		},
+		{
+			"name": "Flash Bees",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "348",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/75.jpg"
+			}
+		},
+		{
+			"name": "Fluttershy",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "353",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/76.jpg"
+			}
+		},
+		{
+			"name": "Fluttershy, Swarmkeeper",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "289",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/77.jpg"
+			}
+		},
+		{
+			"name": "Flyder Swarm",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "356",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/78.jpg"
+			}
+		},
+		{
+			"name": "Forest Picnic",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "290",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/79.jpg"
+			}
+		},
+		{
+			"name": "Granny Smith",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/80.jpg"
+			}
+		},
+		{
+			"name": "Gummy",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Alligator",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/81.jpg"
+			}
+		},
+		{
+			"name": "Hayseed Turnip Truck",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "296",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/82.jpg"
+			}
+		},
+		{
+			"name": "Swamp Hydra",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{X}{G}",
+			"type": "Creature — Hydra",
+			"collector_number": "315",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/83.jpg"
+			}
+		},
+		{
+			"name": "Jonagold",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "297",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/84.jpg"
+			}
+		},
+		{
+			"name": "Signet of Healing",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "441",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/85.jpg"
+			}
+		},
+		{
+			"name": "Mistress Mare-velous",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "371",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/86.jpg"
+			}
+		},
+		{
+			"name": "Mr. & Mrs. Shy",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "373",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/87.jpg"
+			}
+		},
+		{
+			"name": "Parasprite Swarm",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "303",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/88.jpg"
+			}
+		},
+		{
+			"name": "Pillars of Equestria",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "305",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/89.jpg"
+			}
+		},
+		{
+			"name": "Rarity, Scion of Darkness",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/90.jpg"
+			}
+		},
+		{
+			"name": "Red Delicous",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "307",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/91.jpg"
+			}
+		},
+		{
+			"name": "Red Gala",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "308",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/92.jpg"
+			}
+		},
+		{
+			"name": "Rockhoof",
+			"rarity": "rare",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "309",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/93.jpg"
+			}
+		},
+		{
+			"name": "Signet of Strength",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "444",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/94.jpg"
+			}
+		},
+		{
+			"name": "Saddle-Rager",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Pegasus Mutant",
+			"collector_number": "310",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/95.jpg"
+			}
+		},
+		{
+			"name": "Sugar Belle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "313",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/96.jpg"
+			}
+		},
+		{
+			"name": "Swamp Fever",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Enchantment — aura",
+			"collector_number": "403",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/97.jpg"
+			}
+		},
+		{
+			"name": "Teetering Edge",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "316",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/98.jpg"
+			}
+		},
+		{
+			"name": "Tirek's Absorption",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Instant",
+			"collector_number": "413",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/99.jpg"
+			}
+		},
+		{
+			"name": "Pony",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Pony",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/100.jpg"
+			}
+		},
+		{
+			"name": "Zecora",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Zebra",
+			"collector_number": "422",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/101.jpg"
+			}
+		},
+		{
+			"name": "Zephyr Breeze",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/102.jpg"
+			}
+		},
+		{
+			"name": "Aloe & Lotus",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Pony Cleric",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/103.jpg"
+			}
+		},
+		{
+			"name": "Angel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Rabbit",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/104.jpg"
+			}
+		},
+		{
+			"name": "Rainbow Power",
+			"rarity": "rare",
+			"mana_cost": "{X}{W}{W}",
+			"type": "Instant",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/105.jpg"
+			}
+		},
+		{
+			"name": "Coco Pommel",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/106.jpg"
+			}
+		},
+		{
+			"name": "Crackle's Cousin",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/107.jpg"
+			}
+		},
+		{
+			"name": "Cranky and Matilda",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Donkey",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/108.jpg"
+			}
+		},
+		{
+			"name": "Dispel Evil",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/109.jpg"
+			}
+		},
+		{
+			"name": "Excise the Darkness",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/110.jpg"
+			}
+		},
+		{
+			"name": "Fancy Pants",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/111.jpg"
+			}
+		},
+		{
+			"name": "Fancy Pants' Entourage",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Pony Unicorn",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/112.jpg"
+			}
+		},
+		{
+			"name": "Filthy Rich",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/113.jpg"
+			}
+		},
+		{
+			"name": "Flim and Flam",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/114.jpg"
+			}
+		},
+		{
+			"name": "Fluttershy, Warrant Officer",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/115.jpg"
+			}
+		},
+		{
+			"name": "Fluttershy's Aid",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/116.jpg"
+			}
+		},
+		{
+			"name": "Fluttershy's Stare",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/117.jpg"
+			}
+		},
+		{
+			"name": "Gilda",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Griffon",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/118.jpg"
+			}
+		},
+		{
+			"name": "Grampa Gruff",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Griffon",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/119.jpg"
+			}
+		},
+		{
+			"name": "Hum Drum",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/120.jpg"
+			}
+		},
+		{
+			"name": "Igneous Rock & Cloudy Quartz",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/121.jpg"
+			}
+		},
+		{
+			"name": "Metamorphosed Changelings",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/122.jpg"
+			}
+		},
+		{
+			"name": "Mistmane",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Legendary Creature — Spirit Unicorn",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/123.jpg"
+			}
+		},
+		{
+			"name": "Signet of Beauty",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "439",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/124.jpg"
+			}
+		},
+		{
+			"name": "Signet of Bravery",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "440",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/125.jpg"
+			}
+		},
+		{
+			"name": "Octavia Melody",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/126.jpg"
+			}
+		},
+		{
+			"name": "Pinkie Pie",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "378",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/127.jpg"
+			}
+		},
+		{
+			"name": "Power Ponies to the Rescue",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/128.jpg"
+			}
+		},
+		{
+			"name": "President Pipsqueak",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Pony Filly",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/129.jpg"
+			}
+		},
+		{
+			"name": "Princess Celestia",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}{U}",
+			"type": "Legendary Creature — Alicorn",
+			"collector_number": "381",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/130.jpg"
+			}
+		},
+		{
+			"name": "Princess Twilight",
+			"rarity": "mythic",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Alicorn",
+			"collector_number": "383",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/131.jpg"
+			}
+		},
+		{
+			"name": "Rarity",
+			"rarity": "mythic",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "388",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/132.jpg"
+			}
+		},
+		{
+			"name": "Rarity the Riveter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/133.jpg"
+			}
+		},
+		{
+			"name": "Rarity, Private Eye",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "389",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/134.jpg"
+			}
+		},
+		{
+			"name": "Royal Guards",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Pegasus Soldier",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/135.jpg"
+			}
+		},
+		{
+			"name": "Rumble",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Pegasus Filly",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/136.jpg"
+			}
+		},
+		{
+			"name": "Scootaloo",
+			"rarity": "uncommon",
+			"mana_cost": "{R/W}",
+			"type": "Legendary Creature — Filly Pegasus",
+			"collector_number": "426",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/137.jpg"
+			}
+		},
+		{
+			"name": "Shatter Relic",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/138.jpg"
+			}
+		},
+		{
+			"name": "Shining Armor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/139.jpg"
+			}
+		},
+		{
+			"name": "Somnambula",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/140.jpg"
+			}
+		},
+		{
+			"name": "Signet of Hope",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "442",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/141.jpg"
+			}
+		},
+		{
+			"name": "Spike",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U/R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "427",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/142.jpg"
+			}
+		},
+		{
+			"name": "Star Swirl the Bearded",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "397",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/143.jpg"
+			}
+		},
+		{
+			"name": "Mind Stone",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "438",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/144.jpg"
+			}
+		},
+		{
+			"name": "Star Swirl's Shield",
+			"rarity": "rare",
+			"mana_cost": "{X}{W}{W}",
+			"type": "Instant",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/145.jpg"
+			}
+		},
+		{
+			"name": "Stern Telling Off",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/146.jpg"
+			}
+		},
+		{
+			"name": "Stinkin' Rich",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Pony",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/147.jpg"
+			}
+		},
+		{
+			"name": "Stygian",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/148.jpg"
+			}
+		},
+		{
+			"name": "Sweetie Belle",
+			"rarity": "uncommon",
+			"mana_cost": "{W/B}",
+			"type": "Legendary Creature — Filly Unicorn",
+			"collector_number": "428",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/149.jpg"
+			}
+		},
+		{
+			"name": "Into the Pit",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/150.jpg"
+			}
+		},
+		{
+			"name": "The Founding of Equestria",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Enchantment — Saga",
+			"collector_number": "357",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/151.jpg"
+			}
+		},
+		{
+			"name": "The Founding of Griffonstone",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/152.jpg"
+			}
+		},
+		{
+			"name": "The Magic of Friendship",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Saga",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/153.jpg"
+			}
+		},
+		{
+			"name": "The Mysterious Mare do Well",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/154.jpg"
+			}
+		},
+		{
+			"name": "The Tree of Harmony",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact",
+			"collector_number": "457",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/155.jpg"
+			}
+		},
+		{
+			"name": "Thorax, Reformed",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "407",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/156.jpg"
+			}
+		},
+		{
+			"name": "Twilight Sparkle",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "415",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/157.jpg"
+			}
+		},
+		{
+			"name": "Vapor Trail",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Pegasus",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/158.jpg"
+			}
+		},
+		{
+			"name": "Wind Rider",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Pegasus",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/159.jpg"
+			}
+		},
+		{
+			"name": "Apple Vampire Bats",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bat",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/160.jpg"
+			}
+		},
+		{
+			"name": "Book of Inspiration Manifestation",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Legendary Artifact",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/161.jpg"
+			}
+		},
+		{
+			"name": "Book of Rare Diseases",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Artifact",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/162.jpg"
+			}
+		},
+		{
+			"name": "Unusual Equine Illnesses",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}{B}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/163.jpg"
+			}
+		},
+		{
+			"name": "Changeling Guards",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/164.jpg"
+			}
+		},
+		{
+			"name": "Cockatrice",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Cockatrice",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/165.jpg"
+			}
+		},
+		{
+			"name": "Languish",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/166.jpg"
+			}
+		},
+		{
+			"name": "Crystal Troopers",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Pony",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/167.jpg"
+			}
+		},
+		{
+			"name": "Cutie Pox",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/168.jpg"
+			}
+		},
+		{
+			"name": "Green Flame Wheel",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/169.jpg"
+			}
+		},
+		{
+			"name": "Diamond Tiara",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Pony Filly",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/170.jpg"
+			}
+		},
+		{
+			"name": "Discord, Chaos Incarnate",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Avatar",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/171.jpg"
+			}
+		},
+		{
+			"name": "Lethal Scheme",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/172.jpg"
+			}
+		},
+		{
+			"name": "Excise the Traitor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/173.jpg"
+			}
+		},
+		{
+			"name": "Flutterbat",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Creature — Pegasus Bat",
+			"collector_number": "351",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/174.jpg"
+			}
+		},
+		{
+			"name": "Flyder Bites",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/175.jpg"
+			}
+		},
+		{
+			"name": "Hair Extinction Ray",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/176.jpg"
+			}
+		},
+		{
+			"name": "Haunted Sleep",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/177.jpg"
+			}
+		},
+		{
+			"name": "Hearth's Warming Yet to Come",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Alicorn Nightmare",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/178.jpg"
+			}
+		},
+		{
+			"name": "Dream Fiend",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Nightmare",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/179.jpg"
+			}
+		},
+		{
+			"name": "Tirek, Consumer of All",
+			"rarity": "rare",
+			"mana_cost": "{X}{B}{R}",
+			"type": "Legendary Creature — Demon Centaur",
+			"collector_number": "411",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/180.jpg"
+			}
+		},
+		{
+			"name": "Lunar Guard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Pegasus",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/181.jpg"
+			}
+		},
+		{
+			"name": "Luna's Intervention",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/182.jpg"
+			}
+		},
+		{
+			"name": "One Thousand Year Night",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Enchantment Saga",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/183.jpg"
+			}
+		},
+		{
+			"name": "Pharynx",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/184.jpg"
+			}
+		},
+		{
+			"name": "Photo Finish",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/185.jpg"
+			}
+		},
+		{
+			"name": "Pinkie Pie, Party of One",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}{R}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "379",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/186.jpg"
+			}
+		},
+		{
+			"name": "Psyche Fracture",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/187.jpg"
+			}
+		},
+		{
+			"name": "Queen Chrysalis' Throne",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Artifact",
+			"collector_number": "384",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/188.jpg"
+			}
+		},
+		{
+			"name": "Rainbow Dash, Lunar Guard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/189.jpg"
+			}
+		},
+		{
+			"name": "Distracting Melody",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/190.jpg"
+			}
+		},
+		{
+			"name": "Invisibility Spell",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/191.jpg"
+			}
+		},
+		{
+			"name": "Magic Blast",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/192.jpg"
+			}
+		},
+		{
+			"name": "Magical Outburst",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/193.jpg"
+			}
+		},
+		{
+			"name": "Minuette",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/194.jpg"
+			}
+		},
+		{
+			"name": "Pruneify",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/195.jpg"
+			}
+		},
+		{
+			"name": "Reign of Friendship",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/196.jpg"
+			}
+		},
+		{
+			"name": "Rope Trick",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/197.jpg"
+			}
+		},
+		{
+			"name": "Sea Worm",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{U}{U}",
+			"type": "Creature — Serpent",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/198.jpg"
+			}
+		},
+		{
+			"name": "Seabreeze",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Legendary Creature — Fairy",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/199.jpg"
+			}
+		},
+		{
+			"name": "Replication Technique",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Sorcery",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/200.jpg"
+			}
+		},
+		{
+			"name": "Sudden Portal",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/201.jpg"
+			}
+		},
+		{
+			"name": "Telekinesis",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/202.jpg"
+			}
+		},
+		{
+			"name": "Telekinetic Grasp",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/203.jpg"
+			}
+		},
+		{
+			"name": "Book of Advanced Flight Mechanics",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Artifact",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/204.jpg"
+			}
+		},
+		{
+			"name": "Changeling Vats",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Artifact",
+			"collector_number": "330",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/205.jpg"
+			}
+		},
+		{
+			"name": "Owlowiscious",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Legendary Creature — Bird",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/206.jpg"
+			}
+		},
+		{
+			"name": "Cherilee",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/207.jpg"
+			}
+		},
+		{
+			"name": "Suri Polomare",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/208.jpg"
+			}
+		},
+		{
+			"name": "Changeling Swarm",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/209.jpg"
+			}
+		},
+		{
+			"name": "Moondancer",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/210.jpg"
+			}
+		},
+		{
+			"name": "Lost in the Maze",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/211.jpg"
+			}
+		},
+		{
+			"name": "Sublime Epiphany",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Instant",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/212.jpg"
+			}
+		},
+		{
+			"name": "Teleportation Spell",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/213.jpg"
+			}
+		},
+		{
+			"name": "Time Portal",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Artifact Enchantment",
+			"collector_number": "408",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/214.jpg"
+			}
+		},
+		{
+			"name": "Warning From Next Tuesday",
+			"rarity": "common",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/215.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Progress",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "453",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/216.jpg"
+			}
+		},
+		{
+			"name": "Ursa Minor",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Enchantment Creature — Bear",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/217.jpg"
+			}
+		},
+		{
+			"name": "Changeling Web",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/218.jpg"
+			}
+		},
+		{
+			"name": "Encapsulate",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/219.jpg"
+			}
+		},
+		{
+			"name": "Censor",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/220.jpg"
+			}
+		},
+		{
+			"name": "Imprisoned in the Moon",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/221.jpg"
+			}
+		},
+		{
+			"name": "Magical Wings",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/222.jpg"
+			}
+		},
+		{
+			"name": "Bad Hair Day",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/223.jpg"
+			}
+		},
+		{
+			"name": "Bury in Scrolls",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Instant",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/224.jpg"
+			}
+		},
+		{
+			"name": "Changeling Ambush",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/225.jpg"
+			}
+		},
+		{
+			"name": "Chrysalis' Influence",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/226.jpg"
+			}
+		},
+		{
+			"name": "Cheese Surprise",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/227.jpg"
+			}
+		},
+		{
+			"name": "Time Vortex",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/228.jpg"
+			}
+		},
+		{
+			"name": "Canterlot",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "463",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/229.jpg"
+			}
+		},
+		{
+			"name": "Hippogrifia",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "481",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/230.jpg"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land",
+			"collector_number": "482",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/231.jpg"
+			}
+		},
+		{
+			"name": "Neighagra Falls",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "490",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/232.jpg"
+			}
+		},
+		{
+			"name": "Ponehenge",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "494",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/233.jpg"
+			}
+		},
+		{
+			"name": "Seaquestria",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "499",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/234.jpg"
+			}
+		},
+		{
+			"name": "Sire's Hollow",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "500",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/235.jpg"
+			}
+		},
+		{
+			"name": "Derpy Hooves",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/236.jpg"
+			}
+		},
+		{
+			"name": "Starlight, Magical Progidy",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/237.jpg"
+			}
+		},
+		{
+			"name": "Starlight, Master of Time",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/238.jpg"
+			}
+		},
+		{
+			"name": "Trixie the Humble and Penitent",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Unicorn Wizard",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/239.jpg"
+			}
+		},
+		{
+			"name": "Starlight Glimmer, Overlord",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/240.jpg"
+			}
+		},
+		{
+			"name": "Breach the Night",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/241.jpg"
+			}
+		},
+		{
+			"name": "Diamond Dogs",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Dog",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/242.jpg"
+			}
+		},
+		{
+			"name": "Outburst of Rage",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/243.jpg"
+			}
+		},
+		{
+			"name": "Fiery Performance",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/244.jpg"
+			}
+		},
+		{
+			"name": "Makeover",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/245.jpg"
+			}
+		},
+		{
+			"name": "Tirek's Annihalation",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/246.jpg"
+			}
+		},
+		{
+			"name": "Strawberry Fruitbat",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Bat",
+			"collector_number": "399",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/247.jpg"
+			}
+		},
+		{
+			"name": "Boneless",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Artifact Creature — Bird Construct",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/248.jpg"
+			}
+		},
+		{
+			"name": "Pinkie's Party Cannon",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Artifact",
+			"collector_number": "380",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/249.jpg"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "489",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/250.jpg"
+			}
+		},
+		{
+			"name": "Garble",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/251.jpg"
+			}
+		},
+		{
+			"name": "Smoky Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/252.jpg"
+			}
+		},
+		{
+			"name": "Iron Will",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Minotaur",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/253.jpg"
+			}
+		},
+		{
+			"name": "Maulwurf",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Mole Beast",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/254.jpg"
+			}
+		},
+		{
+			"name": "Bulk Biceps",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/255.jpg"
+			}
+		},
+		{
+			"name": "Lightning Dust",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/256.jpg"
+			}
+		},
+		{
+			"name": "Sky Stinger",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Pegasus",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/257.jpg"
+			}
+		},
+		{
+			"name": "Warbolts",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Pegasus Soldier",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/258.jpg"
+			}
+		},
+		{
+			"name": "Wonderbolts",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Pegasus",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/259.jpg"
+			}
+		},
+		{
+			"name": "Pinkie Clone",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Pony",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/260.jpg"
+			}
+		},
+		{
+			"name": "The Olden Pony",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/261.jpg"
+			}
+		},
+		{
+			"name": "Flim & Flam, Monopoly",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "350",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/262.jpg"
+			}
+		},
+		{
+			"name": "Enter the Dragon's Lair",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/263.jpg"
+			}
+		},
+		{
+			"name": "Compulsive Speed",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/264.jpg"
+			}
+		},
+		{
+			"name": "Cake Fiend",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Artifact Creature — Food Nightmare",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/265.jpg"
+			}
+		},
+		{
+			"name": "Zap Apples",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Artifiact — Food Treasure",
+			"collector_number": "421",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/266.jpg"
+			}
+		},
+		{
+			"name": "Sudden Rage",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/267.jpg"
+			}
+		},
+		{
+			"name": "Whipped Cream Rush",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/268.jpg"
+			}
+		},
+		{
+			"name": "Rule of the Sphinx",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Enchantment — Saga",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/269.jpg"
+			}
+		},
+		{
+			"name": "Consuming Obsession",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/270.jpg"
+			}
+		},
+		{
+			"name": "Crack the Throne",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/271.jpg"
+			}
+		},
+		{
+			"name": "Diabolical Transformation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "341",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/272.jpg"
+			}
+		},
+		{
+			"name": "Dragon Ambush",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/273.jpg"
+			}
+		},
+		{
+			"name": "Dragon Peak",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/274.jpg"
+			}
+		},
+		{
+			"name": "Lightning Bolt",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/275.jpg"
+			}
+		},
+		{
+			"name": "Spell of Attraction",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Instant",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/276.jpg"
+			}
+		},
+		{
+			"name": "Tirek's Wrath",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/277.jpg"
+			}
+		},
+		{
+			"name": "Appleoosa",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "461",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/278.jpg"
+			}
+		},
+		{
+			"name": "Golden Oak Library",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "477",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/279.jpg"
+			}
+		},
+		{
+			"name": "Party Planning Cave",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "491",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/280.jpg"
+			}
+		},
+		{
+			"name": "Sugarcube Corner",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "502",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/281.jpg"
+			}
+		},
+		{
+			"name": "Yakyakistan",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "504",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/282.jpg"
+			}
+		},
+		{
+			"name": "Dragonlord Ember",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/283.jpg"
+			}
+		},
+		{
+			"name": "Dragonlord Torch",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/284.jpg"
+			}
+		},
+		{
+			"name": "Spike, Impulsive Hoarder",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/285.jpg"
+			}
+		},
+		{
+			"name": "Flash Magnus",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "349",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/286.jpg"
+			}
+		},
+		{
+			"name": "Pinkie Pie, Resistance Fighter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/287.jpg"
+			}
+		},
+		{
+			"name": "Rainbow Dash, Warbolt",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Pegasus Soldier",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/288.jpg"
+			}
+		},
+		{
+			"name": "Zapp",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/289.jpg"
+			}
+		},
+		{
+			"name": "Philomena",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — Phoenix",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/290.jpg"
+			}
+		},
+		{
+			"name": "Cheese Sandwich",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/291.jpg"
+			}
+		},
+		{
+			"name": "Limestone Pie",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/292.jpg"
+			}
+		},
+		{
+			"name": "Tank",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature — Tortoise",
+			"collector_number": "404",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/293.jpg"
+			}
+		},
+		{
+			"name": "DJ Pon-3",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/294.jpg"
+			}
+		},
+		{
+			"name": "Trixie, Tyrant of Ponyville",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Unicorn Wizard",
+			"collector_number": "414",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/295.jpg"
+			}
+		},
+		{
+			"name": "Devastating Blast",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/296.jpg"
+			}
+		},
+		{
+			"name": "Discord's Command",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/297.jpg"
+			}
+		},
+		{
+			"name": "Fight with Fire",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/298.jpg"
+			}
+		},
+		{
+			"name": "Gateway to Tartarus",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "360",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/299.jpg"
+			}
+		},
+		{
+			"name": "Malevolent Storm",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/300.jpg"
+			}
+		},
+		{
+			"name": "Pinkienado",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/301.jpg"
+			}
+		},
+		{
+			"name": "Spirit Showdown",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/302.jpg"
+			}
+		},
+		{
+			"name": "Storm Showdown",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/303.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Conviction",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "446",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/304.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Creativity",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "447",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/305.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Unity",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "455",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/306.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Resilience",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "454",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/307.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Indulgence",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "452",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/308.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Impulse",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "451",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/309.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Hierarchy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "450",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/310.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Dominance",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "449",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/311.jpg"
+			}
+		},
+		{
+			"name": "Talisman of Curiosity",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "448",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/312.jpg"
+			}
+		},
+		{
+			"name": "The Cutie Map",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact",
+			"collector_number": "433",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/313.jpg"
+			}
+		},
+		{
+			"name": "Shapeshifter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/314.jpg"
+			}
+		},
+		{
+			"name": "Zombie",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Zombie",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/315.jpg"
+			}
+		},
+		{
+			"name": "Tatzlwurm",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Serpent",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/316.jpg"
+			}
+		},
+		{
+			"name": "Thorax, Peacemaker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "406",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/317.jpg"
+			}
+		},
+		{
+			"name": "Revel in Riches",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}",
+			"type": "Enchantment",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/318.jpg"
+			}
+		},
+		{
+			"name": "Turn to Stone",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/319.jpg"
+			}
+		},
+		{
+			"name": "Shadowbolts",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Illusion Pegasus",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/320.jpg"
+			}
+		},
+		{
+			"name": "Spoiled Rich",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Pony",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/321.jpg"
+			}
+		},
+		{
+			"name": "Shadow Bolt",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/322.jpg"
+			}
+		},
+		{
+			"name": "Hoarding Broodlord",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}{B}{B}",
+			"type": "Creature — Dragon",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/323.jpg"
+			}
+		},
+		{
+			"name": "Ember, Glory Seeker",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "345",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/324.jpg"
+			}
+		},
+		{
+			"name": "Friendship's Truce",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/325.jpg"
+			}
+		},
+		{
+			"name": "Reckless Dragon",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/326.jpg"
+			}
+		},
+		{
+			"name": "Applejack's Intervention",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/327.jpg"
+			}
+		},
+		{
+			"name": "Midnight Clock",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/328.jpg"
+			}
+		},
+		{
+			"name": "Blazing Entrance",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/329.jpg"
+			}
+		},
+		{
+			"name": "Dragon Summit",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/330.jpg"
+			}
+		},
+		{
+			"name": "Hellkite Tyrant",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/331.jpg"
+			}
+		},
+		{
+			"name": "Cloudchaser",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Pegasus",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/332.jpg"
+			}
+		},
+		{
+			"name": "Discord, Friend to All",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Avatar",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/333.jpg"
+			}
+		},
+		{
+			"name": "Holder's Boulder",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact",
+			"collector_number": "435",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/334.jpg"
+			}
+		},
+		{
+			"name": "Warlord Sombra",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/335.jpg"
+			}
+		},
+		{
+			"name": "Tirek, Insatiable Hunger",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Demon Centaur",
+			"collector_number": "412",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/336.jpg"
+			}
+		},
+		{
+			"name": "Sludge",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "393",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/337.jpg"
+			}
+		},
+		{
+			"name": "Chancellor Neighsay",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "328",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/338.jpg"
+			}
+		},
+		{
+			"name": "Griffon Signet",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "434",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/339.jpg"
+			}
+		},
+		{
+			"name": "Ursa Major",
+			"rarity": "rare",
+			"mana_cost": "{6}{U}{U}",
+			"type": "Enchantment Creature — Bear",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/340.jpg"
+			}
+		},
+		{
+			"name": "Trixie the Great and Powerful",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — Unicorn Wizard",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/341.jpg"
+			}
+		},
+		{
+			"name": "Gallus",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Griffon",
+			"collector_number": "358",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/342.jpg"
+			}
+		},
+		{
+			"name": "Silverstream",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Legendary Creature — Hippogriff",
+			"collector_number": "392",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/343.jpg"
+			}
+		},
+		{
+			"name": "Sandbar",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "391",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/344.jpg"
+			}
+		},
+		{
+			"name": "Ocellus",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "376",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/345.jpg"
+			}
+		},
+		{
+			"name": "Yona",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Legendary Creaure — Ox",
+			"collector_number": "420",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/346.jpg"
+			}
+		},
+		{
+			"name": "Pegasus",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Pegasus",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/347.jpg"
+			}
+		},
+		{
+			"name": "Insect",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Insect",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/348.jpg"
+			}
+		},
+		{
+			"name": "Squirrel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Squirrel",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/349.jpg"
+			}
+		},
+		{
+			"name": "Lapis Signet",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "437",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/350.jpg"
+			}
+		},
+		{
+			"name": "Sold Ring",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "445",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/351.jpg"
+			}
+		},
+		{
+			"name": "Jungle Signet",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "436",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/352.jpg"
+			}
+		},
+		{
+			"name": "Coldsteel Heart",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "431",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/353.jpg"
+			}
+		},
+		{
+			"name": "Bewitching Signet",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "430",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/354.jpg"
+			}
+		},
+		{
+			"name": "Signet of Magic",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "443",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/355.jpg"
+			}
+		},
+		{
+			"name": "Twilight Sparkle, Royal Pupil",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "416",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/356.jpg"
+			}
+		},
+		{
+			"name": "The Binding of Discord",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/357.jpg"
+			}
+		},
+		{
+			"name": "Idol of Discord",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Artifact",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/358.jpg"
+			}
+		},
+		{
+			"name": "RIP Friendship Lesson",
+			"rarity": "rare",
+			"mana_cost": "{X}{2}",
+			"type": "Sorcery — Lesson",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/359.jpg"
+			}
+		},
+		{
+			"name": "EEA Stamp",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/360.jpg"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/361.jpg"
+			}
+		},
+		{
+			"name": "Anointed Procession",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/362.jpg"
+			}
+		},
+		{
+			"name": "Austere Command",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/363.jpg"
+			}
+		},
+		{
+			"name": "Fleetfoot",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Pegasus",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/364.jpg"
+			}
+		},
+		{
+			"name": "Cupcake Battle",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/365.jpg"
+			}
+		},
+		{
+			"name": "Discord's Meddling",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/366.jpg"
+			}
+		},
+		{
+			"name": "Ponder",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/367.jpg"
+			}
+		},
+		{
+			"name": "Preordain",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/368.jpg"
+			}
+		},
+		{
+			"name": "Opt",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/369.jpg"
+			}
+		},
+		{
+			"name": "Contemplate",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/370.jpg"
+			}
+		},
+		{
+			"name": "Wishing Flower",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/371.jpg"
+			}
+		},
+		{
+			"name": "Nirik",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/372.jpg"
+			}
+		},
+		{
+			"name": "Sans Smirk",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/373.jpg"
+			}
+		},
+		{
+			"name": "Loose Tracks",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/374.jpg"
+			}
+		},
+		{
+			"name": "Legion of Evil",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{B}{R}",
+			"type": "Legendary Creature — Shapeshifter Demon Alicorn",
+			"collector_number": "365",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/375.jpg"
+			}
+		},
+		{
+			"name": "Cozy Glow, Unleashed",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Legendary creature — Alicorn",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/376.jpg"
+			}
+		},
+		{
+			"name": "Sombra's Corrupting Shadow",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Shade",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/377.jpg"
+			}
+		},
+		{
+			"name": "Biscuit & Spur",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Pony Pegasus",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/378.jpg"
+			}
+		},
+		{
+			"name": "Mudbriar",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "300",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/379.jpg"
+			}
+		},
+		{
+			"name": "Animal Support Group",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/380.jpg"
+			}
+		},
+		{
+			"name": "The Smooze",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{X}{G}{U}",
+			"type": "Legendary Creature — Ooze",
+			"collector_number": "394",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/381.jpg"
+			}
+		},
+		{
+			"name": "Little Strongheart",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Ox",
+			"collector_number": "298",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/382.jpg"
+			}
+		},
+		{
+			"name": "Parallel Lives",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment",
+			"collector_number": "302",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/383.jpg"
+			}
+		},
+		{
+			"name": "Fated Union",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment",
+			"collector_number": "286",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/384.jpg"
+			}
+		},
+		{
+			"name": "Shining Armor & Cadence",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Legendary Creature — Unicorn Alicorn",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/385.jpg"
+			}
+		},
+		{
+			"name": "Stygian's Transformation",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment — Saga",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/386.jpg"
+			}
+		},
+		{
+			"name": "Birth of Harmony",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/387.jpg"
+			}
+		},
+		{
+			"name": "Demon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Demon",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/388.jpg"
+			}
+		},
+		{
+			"name": "A.K.Yearling",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "320",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/389.jpg"
+			}
+		},
+		{
+			"name": "Shade of Applejack",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Shade",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/390.jpg"
+			}
+		},
+		{
+			"name": "Shade of Pinkie Pie",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Legendary Creature — Pony Shade",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/391.jpg"
+			}
+		},
+		{
+			"name": "Shade of Twilight",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Legendary Creature — Alicorn Shade",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/392.jpg"
+			}
+		},
+		{
+			"name": "Shade of Fluttershy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Pegasus Shade",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/393.jpg"
+			}
+		},
+		{
+			"name": "Shade of Rainbow Dash",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Pegasus Shade",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/394.jpg"
+			}
+		},
+		{
+			"name": "Hoity Toity",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/395.jpg"
+			}
+		},
+		{
+			"name": "Cat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Cat",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/396.jpg"
+			}
+		},
+		{
+			"name": "Chrysalis, Vengeant",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "334",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/397.jpg"
+			}
+		},
+		{
+			"name": "Monster Apple",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Artifact Creature — Food Construct",
+			"collector_number": "299",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/398.jpg"
+			}
+		},
+		{
+			"name": "Summer Sun Celebration",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "314",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/399.jpg"
+			}
+		},
+		{
+			"name": "Farseek",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "285",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/400.jpg"
+			}
+		},
+		{
+			"name": "Snap Shutter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "311",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/401.jpg"
+			}
+		},
+		{
+			"name": "Mane Allgood",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "369",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/402.jpg"
+			}
+		},
+		{
+			"name": "Ooze",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Ooze",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/403.jpg"
+			}
+		},
+		{
+			"name": "Yovidaphonist",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Ox",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/404.jpg"
+			}
+		},
+		{
+			"name": "Washouts",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Pegasus",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/405.jpg"
+			}
+		},
+		{
+			"name": "Lightning Dust, Washout",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/406.jpg"
+			}
+		},
+		{
+			"name": "Commander Ironhead",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "336",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/407.jpg"
+			}
+		},
+		{
+			"name": "Starlight & Trixie",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Legendary Creature — Unicorn Wizard",
+			"collector_number": "398",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/408.jpg"
+			}
+		},
+		{
+			"name": "Hoo'Far",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "363",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/409.jpg"
+			}
+		},
+		{
+			"name": "Captain Wuzz",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Legendary Creature — Avatar Ranger",
+			"collector_number": "327",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/410.jpg"
+			}
+		},
+		{
+			"name": "Sir McBiggun",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}{G}{G}",
+			"type": "Legendary Creature — Unicorn Knight",
+			"collector_number": "319",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/411.jpg"
+			}
+		},
+		{
+			"name": "Bite-acudas",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Fish",
+			"collector_number": "325",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/412.jpg"
+			}
+		},
+		{
+			"name": "Feather Bangs",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/413.jpg"
+			}
+		},
+		{
+			"name": "Wander the Dream Bubbles",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Enchantment",
+			"collector_number": "419",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/414.jpg"
+			}
+		},
+		{
+			"name": "Untested Stunt",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "417",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/415.jpg"
+			}
+		},
+		{
+			"name": "Thorax, Enraged",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Creature — Shapeshifter Bear",
+			"collector_number": "405",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/416.jpg"
+			}
+		},
+		{
+			"name": "Svengallop",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "402",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/417.jpg"
+			}
+		},
+		{
+			"name": "Ma & Big Daddy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "367",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/418.jpg"
+			}
+		},
+		{
+			"name": "Cleansing Flames",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "335",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/419.jpg"
+			}
+		},
+		{
+			"name": "Sunburst",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature — Creature",
+			"collector_number": "401",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/420.jpg"
+			}
+		},
+		{
+			"name": "Wayfarer's Bauble",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "458",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/421.jpg"
+			}
+		},
+		{
+			"name": "Thought Vessel",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "456",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/422.jpg"
+			}
+		},
+		{
+			"name": "Friend",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature — Friend",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/423.jpg"
+			}
+		},
+		{
+			"name": "Shipping Wars",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/424.jpg"
+			}
+		},
+		{
+			"name": "Musical Medley",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "301",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/425.jpg"
+			}
+		},
+		{
+			"name": "Pony",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature — Pony",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/426.jpg"
+			}
+		},
+		{
+			"name": "Tirek Cast into Tartarus",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Enchantment — Saga",
+			"collector_number": "410",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/427.jpg"
+			}
+		},
+		{
+			"name": "Nightmare Angel",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Rabbit Nightmare",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/428.jpg"
+			}
+		},
+		{
+			"name": "Warlock",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature — Warlock",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/429.jpg"
+			}
+		},
+		{
+			"name": "Mayor Mare",
+			"rarity": "rare",
+			"mana_cost": "{6}{W}{W}",
+			"type": "Legendary Creature — Pony Citizen",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/430.jpg"
+			}
+		},
+		{
+			"name": "Gorge Surfing",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/431.jpg"
+			}
+		},
+		{
+			"name": "Goldie Delicious",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "292",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/432.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE 2 HEADED GIANT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/433.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE DRAFT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/434.jpg"
+			}
+		},
+		{
+			"name": "Mane-iac",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}{U}{R}",
+			"type": "Legendary Creature — Pony Mutant",
+			"collector_number": "370",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/435.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE FEEDBACK",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/436.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE QUESTIONS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/437.jpg"
+			}
+		},
+		{
+			"name": "Princess Luna",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}{B}",
+			"type": "Legendary Creature — Alicorn",
+			"collector_number": "382",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/438.jpg"
+			}
+		},
+		{
+			"name": "Obsessed Fans",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Pegasus Pony Unicorn",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/439.jpg"
+			}
+		},
+		{
+			"name": "Dragon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature — Dragon",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/440.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE DRAFT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/441.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE DRAFT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/442.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE DRAFT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/443.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE DRAFT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/444.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE DRAFT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/445.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE QUESTIONS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/446.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE QUESTIONS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/447.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE QUESTIONS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/448.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE QUESTIONS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/449.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE QUESTIONS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/450.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE QUESTIONS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/451.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE QUESTIONS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/452.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE DRAFT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/453.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE DRAFT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/454.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE DRAFT TIPS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/455.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE QUESTIONS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/456.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE FEEDBACK",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/457.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE FEEDBACK",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/458.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE FEEDBACK",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/459.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE FEEDBACK",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/460.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE FEEDBACK",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/461.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE FEEDBACK",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/462.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE FEEDBACK",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/463.jpg"
+			}
+		},
+		{
+			"name": "MLP CUBE FEEDBACK",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/464.jpg"
+			}
+		},
+		{
+			"name": "Enchantress Zecora",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Legendary Enchantment Creature — Nymph",
+			"collector_number": "346",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/465.jpg"
+			}
+		},
+		{
+			"name": "Chrysalis, Unveiled",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "333",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/466.jpg"
+			}
+		},
+		{
+			"name": "Cozy Glow, Master Manipulator",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Creature",
+			"collector_number": "338",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/467.jpg"
+			}
+		},
+		{
+			"name": "Enchanted Pool",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "472",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/468.jpg"
+			}
+		},
+		{
+			"name": "Klugetown",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "483",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/469.jpg"
+			}
+		},
+		{
+			"name": "Royal Guards",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature — Pegasus Soldier",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/470.jpg"
+			}
+		},
+		{
+			"name": "Breezies",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Fairy",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/471.jpg"
+			}
+		},
+		{
+			"name": "Clump",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/472.jpg"
+			}
+		},
+		{
+			"name": "Cozy Glow, Hapless Friend",
+			"rarity": "rare",
+			"mana_cost": "{U/B}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "424",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/473.jpg"
+			}
+		},
+		{
+			"name": "Opalescence",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Cat",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/474.jpg"
+			}
+		},
+		{
+			"name": "Timberwolves",
+			"rarity": "common",
+			"mana_cost": "{B/G}",
+			"type": "Creature — Plant Wolf",
+			"collector_number": "429",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/475.jpg"
+			}
+		},
+		{
+			"name": "Apple Split",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/476.jpg"
+			}
+		},
+		{
+			"name": "Arimaspi's Bones",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Artifact — Treasure",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/477.jpg"
+			}
+		},
+		{
+			"name": "Bloofy",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Beast",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/478.jpg"
+			}
+		},
+		{
+			"name": "Chrysalis, Throne Usurper",
+			"rarity": "mythic",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "332",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/479.jpg"
+			}
+		},
+		{
+			"name": "Henchponies",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Pony Mercenary",
+			"collector_number": "362",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/480.jpg"
+			}
+		},
+		{
+			"name": "Lyra & Bon Bon, Wed",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "366",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/481.jpg"
+			}
+		},
+		{
+			"name": "Marble Pie",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/482.jpg"
+			}
+		},
+		{
+			"name": "Mr & Mrs Cake",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "372",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/483.jpg"
+			}
+		},
+		{
+			"name": "Music Box Spell",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/484.jpg"
+			}
+		},
+		{
+			"name": "Neighsay",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "374",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/485.jpg"
+			}
+		},
+		{
+			"name": "Night Light & Twilight Velvet",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "375",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/486.jpg"
+			}
+		},
+		{
+			"name": "Shade of Rarity",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Unicorn Shade",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/487.jpg"
+			}
+		},
+		{
+			"name": "Snails",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Unicorn Filly",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/488.jpg"
+			}
+		},
+		{
+			"name": "Snips",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Unicorn Filly",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/489.jpg"
+			}
+		},
+		{
+			"name": "Stygian, Scorned",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "400",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/490.jpg"
+			}
+		},
+		{
+			"name": "Ahuizotl",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Beast",
+			"collector_number": "321",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/491.jpg"
+			}
+		},
+		{
+			"name": "Big Bucks & Jack Pot",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Unicorn Wizard",
+			"collector_number": "324",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/492.jpg"
+			}
+		},
+		{
+			"name": "Bow Hothoof & Windy Whistles",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/493.jpg"
+			}
+		},
+		{
+			"name": "Cobalt Dragon",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/494.jpg"
+			}
+		},
+		{
+			"name": "Coriander Cumin & Saffron Masala",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "337",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/495.jpg"
+			}
+		},
+		{
+			"name": "Dr. Hooves",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/496.jpg"
+			}
+		},
+		{
+			"name": "Fluttergoth",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "352",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/497.jpg"
+			}
+		},
+		{
+			"name": "Mage Meadowbrook",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "368",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/498.jpg"
+			}
+		},
+		{
+			"name": "Masked Matter-Horn",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — Alicorn",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/499.jpg"
+			}
+		},
+		{
+			"name": "Maud Pie",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/500.jpg"
+			}
+		},
+		{
+			"name": "Prize Apple",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Artifact — Food",
+			"collector_number": "306",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/501.jpg"
+			}
+		},
+		{
+			"name": "Rainbow Dash",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "387",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/502.jpg"
+			}
+		},
+		{
+			"name": "Smolder",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/503.jpg"
+			}
+		},
+		{
+			"name": "Sombra, Crystal Shade",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Shade",
+			"collector_number": "395",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/504.jpg"
+			}
+		},
+		{
+			"name": "The Cutie Mark Crusaders",
+			"rarity": "rare",
+			"mana_cost": "{W/B}{G/W}{R/W}",
+			"type": "Legendary Creature — Pony Pegasus Unicorn Filly",
+			"collector_number": "425",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/505.jpg"
+			}
+		},
+		{
+			"name": "The Evil Squizard",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Squid Wizard",
+			"collector_number": "347",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/506.jpg"
+			}
+		},
+		{
+			"name": "Tunnel Eel",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Serpent",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/507.jpg"
+			}
+		},
+		{
+			"name": "Applejack, Requisitions Officer",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/508.jpg"
+			}
+		},
+		{
+			"name": "Autumn Blaze",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Elk",
+			"collector_number": "323",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/509.jpg"
+			}
+		},
+		{
+			"name": "Changeling Flames",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "329",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/510.jpg"
+			}
+		},
+		{
+			"name": "Crackle",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/511.jpg"
+			}
+		},
+		{
+			"name": "DJ Pone-3 & Octavia",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Unicorn Pony",
+			"collector_number": "342",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/512.jpg"
+			}
+		},
+		{
+			"name": "Dr. Caballeron",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Creature — Pony Rogue",
+			"collector_number": "343",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/513.jpg"
+			}
+		},
+		{
+			"name": "Fluttershy, Dragonkeeper",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "354",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/514.jpg"
+			}
+		},
+		{
+			"name": "Garbunkle",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Dragon Wizard",
+			"collector_number": "359",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/515.jpg"
+			}
+		},
+		{
+			"name": "Gladmane",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/516.jpg"
+			}
+		},
+		{
+			"name": "Rain Shine",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Elk",
+			"collector_number": "386",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/517.jpg"
+			}
+		},
+		{
+			"name": "Riddle of Replication",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/518.jpg"
+			}
+		},
+		{
+			"name": "Stygian, Pony of Shadows",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Enchantment Creature — Avatar",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/519.jpg"
+			}
+		},
+		{
+			"name": "The Crystalling",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment — Saga",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/520.jpg"
+			}
+		},
+		{
+			"name": "Tirek & Discord's Reign",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Enchantment — Saga",
+			"collector_number": "409",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/521.jpg"
+			}
+		},
+		{
+			"name": "Chrysalis, Hive Queen",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}{B}",
+			"type": "Lgendary Creature — Shapeshifter",
+			"collector_number": "331",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/522.jpg"
+			}
+		},
+		{
+			"name": "Great Seedling",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "361",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/523.jpg"
+			}
+		},
+		{
+			"name": "Orchard Blossom",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}{W}{W}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "377",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/524.jpg"
+			}
+		},
+		{
+			"name": "Prince Rutherford",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Ox",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/525.jpg"
+			}
+		},
+		{
+			"name": "Spitfire",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "396",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/526.jpg"
+			}
+		},
+		{
+			"name": "Fili-Second",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/527.jpg"
+			}
+		},
+		{
+			"name": "Grand Pear",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "293",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/528.jpg"
+			}
+		},
+		{
+			"name": "Sadistic Sphinx",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Creature — Sphinx",
+			"collector_number": "390",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/529.jpg"
+			}
+		},
+		{
+			"name": "Tantabus",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Creature — Nightmare",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/530.jpg"
+			}
+		},
+		{
+			"name": "Whoa Nelly",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Creature — Unicorn",
+			"collector_number": "317",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/531.jpg"
+			}
+		},
+		{
+			"name": "Chief Thunderhooves",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}{G}",
+			"type": "Legendary Creature — Ox",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/532.jpg"
+			}
+		},
+		{
+			"name": "Daybreaker",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{W}",
+			"type": "Legendary Creature — Alicorn",
+			"collector_number": "340",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/533.jpg"
+			}
+		},
+		{
+			"name": "Mane-iac's Henchponies",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Pony",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/534.jpg"
+			}
+		},
+		{
+			"name": "Dubious Delicacy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact — Food",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/535.jpg"
+			}
+		},
+		{
+			"name": "Beast",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature — Beast",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/536.jpg"
+			}
+		},
+		{
+			"name": "Crystal Spike",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "432",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/537.jpg"
+			}
+		},
+		{
+			"name": "Luna",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Legendary Creature — Alicorn",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/538.jpg"
+			}
+		},
+		{
+			"name": "Discord, Lord of Disharmony",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Avatar",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/539.jpg"
+			}
+		},
+		{
+			"name": "Quench",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/540.jpg"
+			}
+		},
+		{
+			"name": "Skrixl the Exiled",
+			"rarity": "special",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Lizard Warrior",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/541.jpg"
+			}
+		},
+		{
+			"name": "Half-Baked Apple",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Pony",
+			"collector_number": "295",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/542.jpg"
+			}
+		},
+		{
+			"name": "The Crystal Heart",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Artifact",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/543.jpg"
+			}
+		},
+		{
+			"name": "Radiance",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "385",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/544.jpg"
+			}
+		},
+		{
+			"name": "Elements of Harmony",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}{W}{W}",
+			"type": "Legendary Enchantment",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/545.jpg"
+			}
+		},
+		{
+			"name": "The Magic of Friendship Grows",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/546.jpg"
+			}
+		},
+		{
+			"name": "Silver Spoon",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Filly Pony",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/547.jpg"
+			}
+		},
+		{
+			"name": "Boulder",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Legendary artifact",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/548.jpg"
+			}
+		},
+		{
+			"name": "Fleur De Lis",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Unicorn",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/549.jpg"
+			}
+		},
+		{
+			"name": "Monster Apple",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Artifact Creature — Food Construct",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/550.jpg"
+			}
+		},
+		{
+			"name": "Fluttershy, Resistance Fighter",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Pegasus",
+			"collector_number": "355",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/551.jpg"
+			}
+		},
+		{
+			"name": "Villainous Quest",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "418",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/552.jpg"
+			}
+		},
+		{
+			"name": "Flurry Heart",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Alicorn Filly",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/MLC-files/img/553.jpg"
+			}
+		}
+	]
+
+[rare(1)]
+	1 Princess Cadence
+	2 Apple Acres
+	2 Animal Sanctuary
+	2 Apples To The Core
+	2 Breeezie Village
+	2 Changeling Hive
+	2 Chaosville
+	2 Chilling Monologue
+	2 Cloud Stadium
+	2 Cloudsdale
+	2 Corrupted Forest
+	2 Desolate Future
+	2 Dragon Lands
+	2 Everfree Forest
+	2 Field of Poison Joke
+	2 Flame Geyser Swamp
+	2 Griffonstone
+	2 Hayseed Swamp
+	2 Hidden Grotto
+	2 Hondo Flanks & Cookie Crumbles
+	2 Las Pegasus
+	2 Manehatten
+	2 Maretropolis
+	2 Mount Aris
+	2 Mount Everhoof
+	1 Nightmare Moon
+	2 Peaks of Peril
+	2 Ponyville
+	2 Ponyville School
+	2 Rock Farm
+	2 Saddle Lake
+	2 Somnambula Village
+	2 The Binding of Nightmare Moon
+	2 Apple Bloom
+	1 Applejack
+	2 Big Mac
+	2 Bright Mac & Pear Butter
+	2 Daring Do
+	1 Fluttershy
+	2 Granny Smith
+	2 Mistress Mare-velous
+	2 Mr. & Mrs. Shy
+	2 Pillars of Equestria
+	2 Rarity, Scion of Darkness
+	2 Rockhoof
+	2 Saddle-Rager
+	2 Zecora
+	2 Rainbow Power
+	2 Fancy Pants
+	2 Fluttershy, Warrant Officer
+	2 Igneous Rock & Cloudy Quartz
+	2 Mistmane
+	1 Pinkie Pie
+	2 Power Ponies to the Rescue
+	1 Princess Celestia
+	1 Princess Twilight
+	1 Rarity
+	2 Somnambula
+	2 Star Swirl the Bearded
+	2 Star Swirl's Shield
+	2 Stygian
+	2 Into the Pit
+	2 The Founding of Equestria
+	2 The Tree of Harmony
+	2 Thorax, Reformed
+	2 Twilight Sparkle
+	2 Unusual Equine Illnesses
+	2 Languish
+	1 Discord, Chaos Incarnate
+	2 Lethal Scheme
+	2 Flutterbat
+	2 Hair Extinction Ray
+	2 Tirek, Consumer of All
+	2 Pinkie Pie, Party of One
+	2 Queen Chrysalis' Throne
+	2 Rope Trick
+	2 Replication Technique
+	2 Sudden Portal
+	2 Changeling Vats
+	2 Lost in the Maze
+	2 Sublime Epiphany
+	2 Time Portal
+	2 Imprisoned in the Moon
+	2 Canterlot
+	2 Hippogrifia
+	2 Neighagra Falls
+	2 Ponehenge
+	2 Seaquestria
+	2 Sire's Hollow
+	1 Starlight, Magical Progidy
+	2 Starlight, Master of Time
+	1 Trixie the Humble and Penitent
+	2 Breach the Night
+	2 Garble
+	2 Enter the Dragon's Lair
+	2 Tirek's Wrath
+	2 Appleoosa
+	2 Golden Oak Library
+	2 Party Planning Cave
+	2 Sugarcube Corner
+	2 Yakyakistan
+	2 Dragonlord Ember
+	2 Dragonlord Torch
+	2 Flash Magnus
+	2 Rainbow Dash, Warbolt
+	2 Zapp
+	2 Philomena
+	2 Cheese Sandwich
+	2 Trixie, Tyrant of Ponyville
+	2 Malevolent Storm
+	2 Storm Showdown
+	2 The Cutie Map
+	2 Revel in Riches
+	2 Shadow Bolt
+	2 Hoarding Broodlord
+	2 Ember, Glory Seeker
+	2 Friendship's Truce
+	2 Midnight Clock
+	2 Hellkite Tyrant
+	2 Discord, Friend to All
+	2 Warlord Sombra
+	2 Sludge
+	2 Ursa Major
+	2 Silverstream
+	2 Sandbar
+	2 Ocellus
+	2 Yona
+	2 Twilight Sparkle, Royal Pupil
+	2 The Binding of Discord
+	2 RIP Friendship Lesson
+	2 EEA Stamp
+	2 Anointed Procession
+	2 Austere Command
+	2 Cupcake Battle
+	2 Discord's Meddling
+	2 Wishing Flower
+	1 Legion of Evil
+	2 Animal Support Group
+	2 Parallel Lives
+	2 Fated Union
+	2 Shining Armor & Cadence
+	2 Stygian's Transformation
+	2 Chrysalis, Vengeant
+	2 Starlight & Trixie
+	2 Captain Wuzz
+	2 Sir McBiggun
+	2 Thorax, Enraged
+	2 Sunburst
+	1 Shipping Wars
+	2 Mayor Mare
+	2 Mane-iac
+	2 Princess Luna
+	2 Enchantress Zecora
+	1 Chrysalis, Unveiled
+	2 Cozy Glow, Master Manipulator
+	2 Enchanted Pool
+	2 Klugetown
+	2 Cozy Glow, Hapless Friend
+	2 Bloofy
+	1 Chrysalis, Throne Usurper
+	2 Lyra & Bon Bon, Wed
+	2 Music Box Spell
+	2 Night Light & Twilight Velvet
+	2 Ahuizotl
+	2 Big Bucks & Jack Pot
+	2 Bow Hothoof & Windy Whistles
+	2 Coriander Cumin & Saffron Masala
+	2 Dr. Hooves
+	2 Fluttergoth
+	2 Mage Meadowbrook
+	2 Masked Matter-Horn
+	2 Maud Pie
+	1 Rainbow Dash
+	2 Smolder
+	2 Sombra, Crystal Shade
+	2 The Cutie Mark Crusaders
+	2 The Evil Squizard
+	2 Applejack, Requisitions Officer
+	2 Autumn Blaze
+	2 DJ Pone-3 & Octavia
+	2 Dr. Caballeron
+	2 Fluttershy, Dragonkeeper
+	2 Garbunkle
+	2 Rain Shine
+	2 Riddle of Replication
+	2 Stygian, Pony of Shadows
+	2 The Crystalling
+	2 Chrysalis, Hive Queen
+	2 Orchard Blossom
+	2 Prince Rutherford
+	2 Spitfire
+	2 Fili-Second
+	2 Sadistic Sphinx
+	2 Whoa Nelly
+	2 Chief Thunderhooves
+	2 Daybreaker
+	1 Luna
+	1 Discord, Lord of Disharmony
+	1 The Crystal Heart
+	2 Radiance
+	1 Elements of Harmony
+	2 The Magic of Friendship Grows
+	2 Fleur De Lis
+	2 Fluttershy, Resistance Fighter
+	2 Villainous Quest
+[uncommon(3)]
+	4 Absorb Friendship
+	4 Age Spell
+	4 Alicorn Amulet
+	4 Apple Rose
+	4 Apple Strudel
+	4 Auntie Applesauce
+	4 Florina Tart
+	4 King Guto's Final Reign
+	4 Rainbownado
+	4 Somnambula's Reign
+	4 Winona
+	4 Apple Flora & Candy Caramel Tooth
+	4 Apple Leaves
+	4 Babs Seed
+	4 Braeburn
+	4 Cherry Jubilee
+	4 Decisive Battle
+	4 Dr. Fauna
+	4 Flash Bees
+	4 Fluttershy, Swarmkeeper
+	4 Flyder Swarm
+	4 Forest Picnic
+	4 Gummy
+	4 Swamp Hydra
+	4 Signet of Healing
+	4 Signet of Strength
+	4 Sugar Belle
+	4 Swamp Fever
+	4 Tirek's Absorption
+	4 Zephyr Breeze
+	4 Aloe & Lotus
+	4 Angel
+	4 Crackle's Cousin
+	4 Cranky and Matilda
+	4 Filthy Rich
+	4 Flim and Flam
+	4 Gilda
+	4 Hum Drum
+	4 Metamorphosed Changelings
+	4 Signet of Beauty
+	4 Signet of Bravery
+	4 Octavia Melody
+	4 Rarity the Riveter
+	4 Rarity, Private Eye
+	4 Royal Guards
+	4 Rumble
+	4 Scootaloo
+	4 Shatter Relic
+	4 Shining Armor
+	4 Signet of Hope
+	4 Spike
+	4 Stinkin' Rich
+	4 Sweetie Belle
+	4 The Founding of Griffonstone
+	4 The Magic of Friendship
+	4 The Mysterious Mare do Well
+	4 Wind Rider
+	4 Book of Inspiration Manifestation
+	4 Book of Rare Diseases
+	4 Changeling Guards
+	4 Cockatrice
+	4 Crystal Troopers
+	4 Cutie Pox
+	4 Diamond Tiara
+	4 Excise the Traitor
+	4 Haunted Sleep
+	4 Hearth's Warming Yet to Come
+	4 Lunar Guard
+	4 One Thousand Year Night
+	4 Pharynx
+	4 Rainbow Dash, Lunar Guard
+	4 Minuette
+	4 Reign of Friendship
+	4 Sea Worm
+	4 Telekinesis
+	4 Book of Advanced Flight Mechanics
+	4 Owlowiscious
+	4 Cherilee
+	4 Suri Polomare
+	4 Moondancer
+	4 Talisman of Progress
+	4 Ursa Minor
+	4 Bad Hair Day
+	4 Changeling Ambush
+	4 Chrysalis' Influence
+	4 Cheese Surprise
+	4 Derpy Hooves
+	4 Starlight Glimmer, Overlord
+	4 Makeover
+	4 Strawberry Fruitbat
+	4 Boneless
+	4 Pinkie's Party Cannon
+	4 Smoky Dragon
+	4 Maulwurf
+	4 Bulk Biceps
+	4 Lightning Dust
+	4 Warbolts
+	4 Wonderbolts
+	4 Pinkie Clone
+	4 Flim & Flam, Monopoly
+	4 Zap Apples
+	4 Sudden Rage
+	4 Rule of the Sphinx
+	4 Diabolical Transformation
+	4 Dragon Peak
+	4 Spike, Impulsive Hoarder
+	4 Pinkie Pie, Resistance Fighter
+	4 Limestone Pie
+	4 Tank
+	4 DJ Pon-3
+	4 Devastating Blast
+	4 Gateway to Tartarus
+	4 Pinkienado
+	4 Talisman of Conviction
+	4 Talisman of Unity
+	4 Talisman of Resilience
+	4 Talisman of Indulgence
+	4 Talisman of Impulse
+	4 Talisman of Hierarchy
+	4 Talisman of Dominance
+	4 Talisman of Curiosity
+	4 Thorax, Peacemaker
+	4 Shadowbolts
+	4 Spoiled Rich
+	4 Cloudchaser
+	4 Holder's Boulder
+	4 Tirek, Insatiable Hunger
+	4 Chancellor Neighsay
+	4 Griffon Signet
+	4 Trixie the Great and Powerful
+	4 Gallus
+	4 Lapis Signet
+	4 Sold Ring
+	4 Jungle Signet
+	4 Coldsteel Heart
+	4 Bewitching Signet
+	4 Idol of Discord
+	4 Nirik
+	4 Sans Smirk
+	4 Cozy Glow, Unleashed
+	4 Sombra's Corrupting Shadow
+	4 Biscuit & Spur
+	4 Mudbriar
+	4 The Smooze
+	4 Little Strongheart
+	4 Birth of Harmony
+	4 A.K.Yearling
+	4 Shade of Applejack
+	4 Shade of Pinkie Pie
+	4 Shade of Twilight
+	4 Shade of Fluttershy
+	4 Shade of Rainbow Dash
+	4 Hoity Toity
+	4 Monster Apple
+	4 Summer Sun Celebration
+	4 Snap Shutter
+	4 Mane Allgood
+	4 Washouts
+	4 Lightning Dust, Washout
+	4 Commander Ironhead
+	4 Hoo'Far
+	4 Bite-acudas
+	4 Feather Bangs
+	4 Wander the Dream Bubbles
+	4 Untested Stunt
+	4 Svengallop
+	4 Ma & Big Daddy
+	4 Cleansing Flames
+	4 Thought Vessel
+	4 Musical Medley
+	4 Tirek Cast into Tartarus
+	4 Gorge Surfing
+	4 Obsessed Fans
+	4 Clump
+	4 Opalescence
+	4 Apple Split
+	4 Arimaspi's Bones
+	4 Henchponies
+	4 Marble Pie
+	4 Mr & Mrs Cake
+	4 Neighsay
+	4 Shade of Rarity
+	4 Stygian, Scorned
+	4 Prize Apple
+	4 Changeling Flames
+	4 Gladmane
+	4 Tirek & Discord's Reign
+	4 Great Seedling
+	4 Grand Pear
+	4 Tantabus
+	4 Dubious Delicacy
+	4 Crystal Spike
+	4 Silver Spoon
+	4 Flurry Heart
+[common(6)]
+	8 Vindictive Glare
+	8 Apple Dumpling
+	8 Command Tower
+	8 Clone Burst
+	8 Mistmane's Escape
+	8 Peachy Sweet
+	8 The Founding of Ecandya
+	8 Apple Bumpkin
+	8 Apple Cider
+	8 Apple Fritter
+	8 Apple Honey
+	8 Caramel Apple
+	8 Eat Up
+	8 Hayseed Turnip Truck
+	8 Jonagold
+	8 Parasprite Swarm
+	8 Red Delicous
+	8 Red Gala
+	8 Teetering Edge
+	8 Coco Pommel
+	8 Dispel Evil
+	8 Excise the Darkness
+	8 Fancy Pants' Entourage
+	8 Fluttershy's Aid
+	8 Fluttershy's Stare
+	8 Grampa Gruff
+	8 President Pipsqueak
+	8 Mind Stone
+	8 Stern Telling Off
+	8 Vapor Trail
+	8 Apple Vampire Bats
+	8 Green Flame Wheel
+	8 Flyder Bites
+	8 Dream Fiend
+	8 Luna's Intervention
+	8 Photo Finish
+	8 Psyche Fracture
+	8 Distracting Melody
+	8 Invisibility Spell
+	8 Magic Blast
+	8 Magical Outburst
+	8 Pruneify
+	8 Seabreeze
+	8 Telekinetic Grasp
+	8 Changeling Swarm
+	8 Teleportation Spell
+	8 Warning From Next Tuesday
+	8 Changeling Web
+	8 Encapsulate
+	8 Censor
+	8 Magical Wings
+	8 Bury in Scrolls
+	8 Time Vortex
+	8 Diamond Dogs
+	8 Outburst of Rage
+	8 Fiery Performance
+	8 Tirek's Annihalation
+	8 Iron Will
+	8 Sky Stinger
+	8 The Olden Pony
+	8 Compulsive Speed
+	8 Cake Fiend
+	8 Whipped Cream Rush
+	8 Consuming Obsession
+	8 Crack the Throne
+	8 Dragon Ambush
+	8 Lightning Bolt
+	8 Spell of Attraction
+	8 Discord's Command
+	8 Fight with Fire
+	8 Spirit Showdown
+	8 Talisman of Creativity
+	8 Tatzlwurm
+	8 Turn to Stone
+	8 Reckless Dragon
+	8 Applejack's Intervention
+	8 Blazing Entrance
+	8 Dragon Summit
+	8 Signet of Magic
+	8 Fleetfoot
+	8 Ponder
+	8 Preordain
+	8 Opt
+	8 Contemplate
+	8 Loose Tracks
+	8 Farseek
+	8 Yovidaphonist
+	8 Wayfarer's Bauble
+	8 Nightmare Angel
+	8 Goldie Delicious
+	8 Breezies
+	8 Timberwolves
+	8 Snails
+	8 Snips
+	8 Cobalt Dragon
+	8 Tunnel Eel
+	8 Crackle
+	8 Mane-iac's Henchponies
+	8 Quench
+	8 Half-Baked Apple
+[common | masterpiece(1)]
+	8 Vindictive Glare
+	8 Apple Dumpling
+	8 Command Tower
+	8 Clone Burst
+	8 Mistmane's Escape
+	8 Peachy Sweet
+	8 The Founding of Ecandya
+	8 Apple Bumpkin
+	8 Apple Cider
+	8 Apple Fritter
+	8 Apple Honey
+	8 Caramel Apple
+	8 Eat Up
+	8 Hayseed Turnip Truck
+	8 Jonagold
+	8 Parasprite Swarm
+	8 Red Delicous
+	8 Red Gala
+	8 Teetering Edge
+	8 Coco Pommel
+	8 Dispel Evil
+	8 Excise the Darkness
+	8 Fancy Pants' Entourage
+	8 Fluttershy's Aid
+	8 Fluttershy's Stare
+	8 Grampa Gruff
+	8 President Pipsqueak
+	8 Mind Stone
+	8 Stern Telling Off
+	8 Vapor Trail
+	8 Apple Vampire Bats
+	8 Green Flame Wheel
+	8 Flyder Bites
+	8 Dream Fiend
+	8 Luna's Intervention
+	8 Photo Finish
+	8 Psyche Fracture
+	8 Distracting Melody
+	8 Invisibility Spell
+	8 Magic Blast
+	8 Magical Outburst
+	8 Pruneify
+	8 Seabreeze
+	8 Telekinetic Grasp
+	8 Changeling Swarm
+	8 Teleportation Spell
+	8 Warning From Next Tuesday
+	8 Changeling Web
+	8 Encapsulate
+	8 Censor
+	8 Magical Wings
+	8 Bury in Scrolls
+	8 Time Vortex
+	8 Diamond Dogs
+	8 Outburst of Rage
+	8 Fiery Performance
+	8 Tirek's Annihalation
+	8 Iron Will
+	8 Sky Stinger
+	8 The Olden Pony
+	8 Compulsive Speed
+	8 Cake Fiend
+	8 Whipped Cream Rush
+	8 Consuming Obsession
+	8 Crack the Throne
+	8 Dragon Ambush
+	8 Lightning Bolt
+	8 Spell of Attraction
+	8 Discord's Command
+	8 Fight with Fire
+	8 Spirit Showdown
+	8 Talisman of Creativity
+	8 Tatzlwurm
+	8 Turn to Stone
+	8 Reckless Dragon
+	8 Applejack's Intervention
+	8 Blazing Entrance
+	8 Dragon Summit
+	8 Signet of Magic
+	8 Fleetfoot
+	8 Ponder
+	8 Preordain
+	8 Opt
+	8 Contemplate
+	8 Loose Tracks
+	8 Farseek
+	8 Yovidaphonist
+	8 Wayfarer's Bauble
+	8 Nightmare Angel
+	8 Goldie Delicious
+	8 Breezies
+	8 Timberwolves
+	8 Snails
+	8 Snips
+	8 Cobalt Dragon
+	8 Tunnel Eel
+	8 Crackle
+	8 Mane-iac's Henchponies
+	8 Quench
+	3 Skrixl the Exiled
+	8 Half-Baked Apple
+[foil(1)]
+	1 Princess Cadence
+	6 Absorb Friendship
+	6 Age Spell
+	6 Alicorn Amulet
+	12 Vindictive Glare
+	2 Apple Acres
+	2 Animal Sanctuary
+	12 Apple Dumpling
+	6 Apple Rose
+	6 Apple Strudel
+	2 Apples To The Core
+	6 Auntie Applesauce
+	2 Breeezie Village
+	12 Command Tower
+	2 Changeling Hive
+	2 Chaosville
+	2 Chilling Monologue
+	12 Clone Burst
+	2 Cloud Stadium
+	2 Cloudsdale
+	2 Corrupted Forest
+	2 Desolate Future
+	2 Dragon Lands
+	2 Everfree Forest
+	2 Field of Poison Joke
+	2 Flame Geyser Swamp
+	6 Florina Tart
+	2 Griffonstone
+	2 Hayseed Swamp
+	2 Hidden Grotto
+	2 Hondo Flanks & Cookie Crumbles
+	6 King Guto's Final Reign
+	2 Las Pegasus
+	2 Manehatten
+	2 Maretropolis
+	12 Mistmane's Escape
+	2 Mount Aris
+	2 Mount Everhoof
+	1 Nightmare Moon
+	12 Peachy Sweet
+	2 Peaks of Peril
+	2 Ponyville
+	2 Ponyville School
+	6 Rainbownado
+	2 Rock Farm
+	2 Saddle Lake
+	2 Somnambula Village
+	6 Somnambula's Reign
+	2 The Binding of Nightmare Moon
+	12 The Founding of Ecandya
+	6 Winona
+	6 Apple Flora & Candy Caramel Tooth
+	12 Apple Bumpkin
+	2 Apple Bloom
+	1 Applejack
+	12 Apple Cider
+	12 Apple Fritter
+	12 Apple Honey
+	6 Apple Leaves
+	6 Babs Seed
+	2 Big Mac
+	6 Braeburn
+	2 Bright Mac & Pear Butter
+	12 Caramel Apple
+	6 Cherry Jubilee
+	2 Daring Do
+	6 Decisive Battle
+	6 Dr. Fauna
+	12 Eat Up
+	6 Flash Bees
+	1 Fluttershy
+	6 Fluttershy, Swarmkeeper
+	6 Flyder Swarm
+	6 Forest Picnic
+	2 Granny Smith
+	6 Gummy
+	12 Hayseed Turnip Truck
+	6 Swamp Hydra
+	12 Jonagold
+	6 Signet of Healing
+	2 Mistress Mare-velous
+	2 Mr. & Mrs. Shy
+	12 Parasprite Swarm
+	2 Pillars of Equestria
+	2 Rarity, Scion of Darkness
+	12 Red Delicous
+	12 Red Gala
+	2 Rockhoof
+	6 Signet of Strength
+	2 Saddle-Rager
+	6 Sugar Belle
+	6 Swamp Fever
+	12 Teetering Edge
+	6 Tirek's Absorption
+	2 Zecora
+	6 Zephyr Breeze
+	6 Aloe & Lotus
+	6 Angel
+	2 Rainbow Power
+	12 Coco Pommel
+	6 Crackle's Cousin
+	6 Cranky and Matilda
+	12 Dispel Evil
+	12 Excise the Darkness
+	2 Fancy Pants
+	12 Fancy Pants' Entourage
+	6 Filthy Rich
+	6 Flim and Flam
+	2 Fluttershy, Warrant Officer
+	12 Fluttershy's Aid
+	12 Fluttershy's Stare
+	6 Gilda
+	12 Grampa Gruff
+	6 Hum Drum
+	2 Igneous Rock & Cloudy Quartz
+	6 Metamorphosed Changelings
+	2 Mistmane
+	6 Signet of Beauty
+	6 Signet of Bravery
+	6 Octavia Melody
+	1 Pinkie Pie
+	2 Power Ponies to the Rescue
+	12 President Pipsqueak
+	1 Princess Celestia
+	1 Princess Twilight
+	1 Rarity
+	6 Rarity the Riveter
+	6 Rarity, Private Eye
+	6 Royal Guards
+	6 Rumble
+	6 Scootaloo
+	6 Shatter Relic
+	6 Shining Armor
+	2 Somnambula
+	6 Signet of Hope
+	6 Spike
+	2 Star Swirl the Bearded
+	12 Mind Stone
+	2 Star Swirl's Shield
+	12 Stern Telling Off
+	6 Stinkin' Rich
+	2 Stygian
+	6 Sweetie Belle
+	2 Into the Pit
+	2 The Founding of Equestria
+	6 The Founding of Griffonstone
+	6 The Magic of Friendship
+	6 The Mysterious Mare do Well
+	2 The Tree of Harmony
+	2 Thorax, Reformed
+	2 Twilight Sparkle
+	12 Vapor Trail
+	6 Wind Rider
+	12 Apple Vampire Bats
+	6 Book of Inspiration Manifestation
+	6 Book of Rare Diseases
+	2 Unusual Equine Illnesses
+	6 Changeling Guards
+	6 Cockatrice
+	2 Languish
+	6 Crystal Troopers
+	6 Cutie Pox
+	12 Green Flame Wheel
+	6 Diamond Tiara
+	1 Discord, Chaos Incarnate
+	2 Lethal Scheme
+	6 Excise the Traitor
+	2 Flutterbat
+	12 Flyder Bites
+	2 Hair Extinction Ray
+	6 Haunted Sleep
+	6 Hearth's Warming Yet to Come
+	12 Dream Fiend
+	2 Tirek, Consumer of All
+	6 Lunar Guard
+	12 Luna's Intervention
+	6 One Thousand Year Night
+	6 Pharynx
+	12 Photo Finish
+	2 Pinkie Pie, Party of One
+	12 Psyche Fracture
+	2 Queen Chrysalis' Throne
+	6 Rainbow Dash, Lunar Guard
+	12 Distracting Melody
+	12 Invisibility Spell
+	12 Magic Blast
+	12 Magical Outburst
+	6 Minuette
+	12 Pruneify
+	6 Reign of Friendship
+	2 Rope Trick
+	6 Sea Worm
+	12 Seabreeze
+	2 Replication Technique
+	2 Sudden Portal
+	6 Telekinesis
+	12 Telekinetic Grasp
+	6 Book of Advanced Flight Mechanics
+	2 Changeling Vats
+	6 Owlowiscious
+	6 Cherilee
+	6 Suri Polomare
+	12 Changeling Swarm
+	6 Moondancer
+	2 Lost in the Maze
+	2 Sublime Epiphany
+	12 Teleportation Spell
+	2 Time Portal
+	12 Warning From Next Tuesday
+	6 Talisman of Progress
+	6 Ursa Minor
+	12 Changeling Web
+	12 Encapsulate
+	12 Censor
+	2 Imprisoned in the Moon
+	12 Magical Wings
+	6 Bad Hair Day
+	12 Bury in Scrolls
+	6 Changeling Ambush
+	6 Chrysalis' Influence
+	6 Cheese Surprise
+	12 Time Vortex
+	2 Canterlot
+	2 Hippogrifia
+	2 Neighagra Falls
+	2 Ponehenge
+	2 Seaquestria
+	2 Sire's Hollow
+	6 Derpy Hooves
+	1 Starlight, Magical Progidy
+	2 Starlight, Master of Time
+	1 Trixie the Humble and Penitent
+	6 Starlight Glimmer, Overlord
+	2 Breach the Night
+	12 Diamond Dogs
+	12 Outburst of Rage
+	12 Fiery Performance
+	6 Makeover
+	12 Tirek's Annihalation
+	6 Strawberry Fruitbat
+	6 Boneless
+	6 Pinkie's Party Cannon
+	2 Garble
+	6 Smoky Dragon
+	12 Iron Will
+	6 Maulwurf
+	6 Bulk Biceps
+	6 Lightning Dust
+	12 Sky Stinger
+	6 Warbolts
+	6 Wonderbolts
+	6 Pinkie Clone
+	12 The Olden Pony
+	6 Flim & Flam, Monopoly
+	2 Enter the Dragon's Lair
+	12 Compulsive Speed
+	12 Cake Fiend
+	6 Zap Apples
+	6 Sudden Rage
+	12 Whipped Cream Rush
+	6 Rule of the Sphinx
+	12 Consuming Obsession
+	12 Crack the Throne
+	6 Diabolical Transformation
+	12 Dragon Ambush
+	6 Dragon Peak
+	12 Lightning Bolt
+	12 Spell of Attraction
+	2 Tirek's Wrath
+	2 Appleoosa
+	2 Golden Oak Library
+	2 Party Planning Cave
+	2 Sugarcube Corner
+	2 Yakyakistan
+	2 Dragonlord Ember
+	2 Dragonlord Torch
+	6 Spike, Impulsive Hoarder
+	2 Flash Magnus
+	6 Pinkie Pie, Resistance Fighter
+	2 Rainbow Dash, Warbolt
+	2 Zapp
+	2 Philomena
+	2 Cheese Sandwich
+	6 Limestone Pie
+	6 Tank
+	6 DJ Pon-3
+	2 Trixie, Tyrant of Ponyville
+	6 Devastating Blast
+	12 Discord's Command
+	12 Fight with Fire
+	6 Gateway to Tartarus
+	2 Malevolent Storm
+	6 Pinkienado
+	12 Spirit Showdown
+	2 Storm Showdown
+	6 Talisman of Conviction
+	12 Talisman of Creativity
+	6 Talisman of Unity
+	6 Talisman of Resilience
+	6 Talisman of Indulgence
+	6 Talisman of Impulse
+	6 Talisman of Hierarchy
+	6 Talisman of Dominance
+	6 Talisman of Curiosity
+	2 The Cutie Map
+	12 Tatzlwurm
+	6 Thorax, Peacemaker
+	2 Revel in Riches
+	12 Turn to Stone
+	6 Shadowbolts
+	6 Spoiled Rich
+	2 Shadow Bolt
+	2 Hoarding Broodlord
+	2 Ember, Glory Seeker
+	2 Friendship's Truce
+	12 Reckless Dragon
+	12 Applejack's Intervention
+	2 Midnight Clock
+	12 Blazing Entrance
+	12 Dragon Summit
+	2 Hellkite Tyrant
+	6 Cloudchaser
+	2 Discord, Friend to All
+	6 Holder's Boulder
+	2 Warlord Sombra
+	6 Tirek, Insatiable Hunger
+	2 Sludge
+	6 Chancellor Neighsay
+	6 Griffon Signet
+	2 Ursa Major
+	6 Trixie the Great and Powerful
+	6 Gallus
+	2 Silverstream
+	2 Sandbar
+	2 Ocellus
+	2 Yona
+	6 Lapis Signet
+	6 Sold Ring
+	6 Jungle Signet
+	6 Coldsteel Heart
+	6 Bewitching Signet
+	12 Signet of Magic
+	2 Twilight Sparkle, Royal Pupil
+	2 The Binding of Discord
+	6 Idol of Discord
+	2 RIP Friendship Lesson
+	2 EEA Stamp
+	2 Anointed Procession
+	2 Austere Command
+	12 Fleetfoot
+	2 Cupcake Battle
+	2 Discord's Meddling
+	12 Ponder
+	12 Preordain
+	12 Opt
+	12 Contemplate
+	2 Wishing Flower
+	6 Nirik
+	6 Sans Smirk
+	12 Loose Tracks
+	1 Legion of Evil
+	6 Cozy Glow, Unleashed
+	6 Sombra's Corrupting Shadow
+	6 Biscuit & Spur
+	6 Mudbriar
+	2 Animal Support Group
+	6 The Smooze
+	6 Little Strongheart
+	2 Parallel Lives
+	2 Fated Union
+	2 Shining Armor & Cadence
+	2 Stygian's Transformation
+	6 Birth of Harmony
+	6 A.K.Yearling
+	6 Shade of Applejack
+	6 Shade of Pinkie Pie
+	6 Shade of Twilight
+	6 Shade of Fluttershy
+	6 Shade of Rainbow Dash
+	6 Hoity Toity
+	2 Chrysalis, Vengeant
+	6 Monster Apple
+	6 Summer Sun Celebration
+	12 Farseek
+	6 Snap Shutter
+	6 Mane Allgood
+	12 Yovidaphonist
+	6 Washouts
+	6 Lightning Dust, Washout
+	6 Commander Ironhead
+	2 Starlight & Trixie
+	6 Hoo'Far
+	2 Captain Wuzz
+	2 Sir McBiggun
+	6 Bite-acudas
+	6 Feather Bangs
+	6 Wander the Dream Bubbles
+	6 Untested Stunt
+	2 Thorax, Enraged
+	6 Svengallop
+	6 Ma & Big Daddy
+	6 Cleansing Flames
+	2 Sunburst
+	12 Wayfarer's Bauble
+	6 Thought Vessel
+	1 Shipping Wars
+	6 Musical Medley
+	6 Tirek Cast into Tartarus
+	12 Nightmare Angel
+	2 Mayor Mare
+	6 Gorge Surfing
+	12 Goldie Delicious
+	2 Mane-iac
+	2 Princess Luna
+	6 Obsessed Fans
+	2 Enchantress Zecora
+	1 Chrysalis, Unveiled
+	2 Cozy Glow, Master Manipulator
+	2 Enchanted Pool
+	2 Klugetown
+	12 Breezies
+	6 Clump
+	2 Cozy Glow, Hapless Friend
+	6 Opalescence
+	12 Timberwolves
+	6 Apple Split
+	6 Arimaspi's Bones
+	2 Bloofy
+	1 Chrysalis, Throne Usurper
+	6 Henchponies
+	2 Lyra & Bon Bon, Wed
+	6 Marble Pie
+	6 Mr & Mrs Cake
+	2 Music Box Spell
+	6 Neighsay
+	2 Night Light & Twilight Velvet
+	6 Shade of Rarity
+	12 Snails
+	12 Snips
+	6 Stygian, Scorned
+	2 Ahuizotl
+	2 Big Bucks & Jack Pot
+	2 Bow Hothoof & Windy Whistles
+	12 Cobalt Dragon
+	2 Coriander Cumin & Saffron Masala
+	2 Dr. Hooves
+	2 Fluttergoth
+	2 Mage Meadowbrook
+	2 Masked Matter-Horn
+	2 Maud Pie
+	6 Prize Apple
+	1 Rainbow Dash
+	2 Smolder
+	2 Sombra, Crystal Shade
+	2 The Cutie Mark Crusaders
+	2 The Evil Squizard
+	12 Tunnel Eel
+	2 Applejack, Requisitions Officer
+	2 Autumn Blaze
+	6 Changeling Flames
+	12 Crackle
+	2 DJ Pone-3 & Octavia
+	2 Dr. Caballeron
+	2 Fluttershy, Dragonkeeper
+	2 Garbunkle
+	6 Gladmane
+	2 Rain Shine
+	2 Riddle of Replication
+	2 Stygian, Pony of Shadows
+	2 The Crystalling
+	6 Tirek & Discord's Reign
+	2 Chrysalis, Hive Queen
+	6 Great Seedling
+	2 Orchard Blossom
+	2 Prince Rutherford
+	2 Spitfire
+	2 Fili-Second
+	6 Grand Pear
+	2 Sadistic Sphinx
+	6 Tantabus
+	2 Whoa Nelly
+	2 Chief Thunderhooves
+	2 Daybreaker
+	12 Mane-iac's Henchponies
+	6 Dubious Delicacy
+	6 Crystal Spike
+	1 Luna
+	1 Discord, Lord of Disharmony
+	12 Quench
+	12 Half-Baked Apple
+	1 The Crystal Heart
+	2 Radiance
+	1 Elements of Harmony
+	2 The Magic of Friendship Grows
+	6 Silver Spoon
+	2 Fleur De Lis
+	2 Fluttershy, Resistance Fighter
+	2 Villainous Quest
+	6 Flurry Heart
+[wildcard(1)]
+	4 Princess Cadence
+	15 Absorb Friendship
+	15 Age Spell
+	15 Alicorn Amulet
+	6 Vindictive Glare
+	7 Apple Acres
+	7 Animal Sanctuary
+	6 Apple Dumpling
+	15 Apple Rose
+	15 Apple Strudel
+	7 Apples To The Core
+	15 Auntie Applesauce
+	7 Breeezie Village
+	6 Command Tower
+	7 Changeling Hive
+	7 Chaosville
+	7 Chilling Monologue
+	6 Clone Burst
+	7 Cloud Stadium
+	7 Cloudsdale
+	7 Corrupted Forest
+	7 Desolate Future
+	7 Dragon Lands
+	7 Everfree Forest
+	7 Field of Poison Joke
+	7 Flame Geyser Swamp
+	15 Florina Tart
+	7 Griffonstone
+	7 Hayseed Swamp
+	7 Hidden Grotto
+	7 Hondo Flanks & Cookie Crumbles
+	15 King Guto's Final Reign
+	7 Las Pegasus
+	7 Manehatten
+	7 Maretropolis
+	6 Mistmane's Escape
+	7 Mount Aris
+	7 Mount Everhoof
+	4 Nightmare Moon
+	6 Peachy Sweet
+	7 Peaks of Peril
+	7 Ponyville
+	7 Ponyville School
+	15 Rainbownado
+	7 Rock Farm
+	7 Saddle Lake
+	7 Somnambula Village
+	15 Somnambula's Reign
+	7 The Binding of Nightmare Moon
+	6 The Founding of Ecandya
+	15 Winona
+	15 Apple Flora & Candy Caramel Tooth
+	6 Apple Bumpkin
+	7 Apple Bloom
+	4 Applejack
+	6 Apple Cider
+	6 Apple Fritter
+	6 Apple Honey
+	15 Apple Leaves
+	15 Babs Seed
+	7 Big Mac
+	15 Braeburn
+	7 Bright Mac & Pear Butter
+	6 Caramel Apple
+	15 Cherry Jubilee
+	7 Daring Do
+	15 Decisive Battle
+	15 Dr. Fauna
+	6 Eat Up
+	15 Flash Bees
+	4 Fluttershy
+	15 Fluttershy, Swarmkeeper
+	15 Flyder Swarm
+	15 Forest Picnic
+	7 Granny Smith
+	15 Gummy
+	6 Hayseed Turnip Truck
+	15 Swamp Hydra
+	6 Jonagold
+	15 Signet of Healing
+	7 Mistress Mare-velous
+	7 Mr. & Mrs. Shy
+	6 Parasprite Swarm
+	7 Pillars of Equestria
+	7 Rarity, Scion of Darkness
+	6 Red Delicous
+	6 Red Gala
+	7 Rockhoof
+	15 Signet of Strength
+	7 Saddle-Rager
+	15 Sugar Belle
+	15 Swamp Fever
+	6 Teetering Edge
+	15 Tirek's Absorption
+	7 Zecora
+	15 Zephyr Breeze
+	15 Aloe & Lotus
+	15 Angel
+	7 Rainbow Power
+	6 Coco Pommel
+	15 Crackle's Cousin
+	15 Cranky and Matilda
+	6 Dispel Evil
+	6 Excise the Darkness
+	7 Fancy Pants
+	6 Fancy Pants' Entourage
+	15 Filthy Rich
+	15 Flim and Flam
+	7 Fluttershy, Warrant Officer
+	6 Fluttershy's Aid
+	6 Fluttershy's Stare
+	15 Gilda
+	6 Grampa Gruff
+	15 Hum Drum
+	7 Igneous Rock & Cloudy Quartz
+	15 Metamorphosed Changelings
+	7 Mistmane
+	15 Signet of Beauty
+	15 Signet of Bravery
+	15 Octavia Melody
+	4 Pinkie Pie
+	7 Power Ponies to the Rescue
+	6 President Pipsqueak
+	4 Princess Celestia
+	4 Princess Twilight
+	4 Rarity
+	15 Rarity the Riveter
+	15 Rarity, Private Eye
+	15 Royal Guards
+	15 Rumble
+	15 Scootaloo
+	15 Shatter Relic
+	15 Shining Armor
+	7 Somnambula
+	15 Signet of Hope
+	15 Spike
+	7 Star Swirl the Bearded
+	6 Mind Stone
+	7 Star Swirl's Shield
+	6 Stern Telling Off
+	15 Stinkin' Rich
+	7 Stygian
+	15 Sweetie Belle
+	7 Into the Pit
+	7 The Founding of Equestria
+	15 The Founding of Griffonstone
+	15 The Magic of Friendship
+	15 The Mysterious Mare do Well
+	7 The Tree of Harmony
+	7 Thorax, Reformed
+	7 Twilight Sparkle
+	6 Vapor Trail
+	15 Wind Rider
+	6 Apple Vampire Bats
+	15 Book of Inspiration Manifestation
+	15 Book of Rare Diseases
+	7 Unusual Equine Illnesses
+	15 Changeling Guards
+	15 Cockatrice
+	7 Languish
+	15 Crystal Troopers
+	15 Cutie Pox
+	6 Green Flame Wheel
+	15 Diamond Tiara
+	4 Discord, Chaos Incarnate
+	7 Lethal Scheme
+	15 Excise the Traitor
+	7 Flutterbat
+	6 Flyder Bites
+	7 Hair Extinction Ray
+	15 Haunted Sleep
+	15 Hearth's Warming Yet to Come
+	6 Dream Fiend
+	7 Tirek, Consumer of All
+	15 Lunar Guard
+	6 Luna's Intervention
+	15 One Thousand Year Night
+	15 Pharynx
+	6 Photo Finish
+	7 Pinkie Pie, Party of One
+	6 Psyche Fracture
+	7 Queen Chrysalis' Throne
+	15 Rainbow Dash, Lunar Guard
+	6 Distracting Melody
+	6 Invisibility Spell
+	6 Magic Blast
+	6 Magical Outburst
+	15 Minuette
+	6 Pruneify
+	15 Reign of Friendship
+	7 Rope Trick
+	15 Sea Worm
+	6 Seabreeze
+	7 Replication Technique
+	7 Sudden Portal
+	15 Telekinesis
+	6 Telekinetic Grasp
+	15 Book of Advanced Flight Mechanics
+	7 Changeling Vats
+	15 Owlowiscious
+	15 Cherilee
+	15 Suri Polomare
+	6 Changeling Swarm
+	15 Moondancer
+	7 Lost in the Maze
+	7 Sublime Epiphany
+	6 Teleportation Spell
+	7 Time Portal
+	6 Warning From Next Tuesday
+	15 Talisman of Progress
+	15 Ursa Minor
+	6 Changeling Web
+	6 Encapsulate
+	6 Censor
+	7 Imprisoned in the Moon
+	6 Magical Wings
+	15 Bad Hair Day
+	6 Bury in Scrolls
+	15 Changeling Ambush
+	15 Chrysalis' Influence
+	15 Cheese Surprise
+	6 Time Vortex
+	7 Canterlot
+	7 Hippogrifia
+	7 Neighagra Falls
+	7 Ponehenge
+	7 Seaquestria
+	7 Sire's Hollow
+	15 Derpy Hooves
+	4 Starlight, Magical Progidy
+	7 Starlight, Master of Time
+	4 Trixie the Humble and Penitent
+	15 Starlight Glimmer, Overlord
+	7 Breach the Night
+	6 Diamond Dogs
+	6 Outburst of Rage
+	6 Fiery Performance
+	15 Makeover
+	6 Tirek's Annihalation
+	15 Strawberry Fruitbat
+	15 Boneless
+	15 Pinkie's Party Cannon
+	7 Garble
+	15 Smoky Dragon
+	6 Iron Will
+	15 Maulwurf
+	15 Bulk Biceps
+	15 Lightning Dust
+	6 Sky Stinger
+	15 Warbolts
+	15 Wonderbolts
+	15 Pinkie Clone
+	6 The Olden Pony
+	15 Flim & Flam, Monopoly
+	7 Enter the Dragon's Lair
+	6 Compulsive Speed
+	6 Cake Fiend
+	15 Zap Apples
+	15 Sudden Rage
+	6 Whipped Cream Rush
+	15 Rule of the Sphinx
+	6 Consuming Obsession
+	6 Crack the Throne
+	15 Diabolical Transformation
+	6 Dragon Ambush
+	15 Dragon Peak
+	6 Lightning Bolt
+	6 Spell of Attraction
+	7 Tirek's Wrath
+	7 Appleoosa
+	7 Golden Oak Library
+	7 Party Planning Cave
+	7 Sugarcube Corner
+	7 Yakyakistan
+	7 Dragonlord Ember
+	7 Dragonlord Torch
+	15 Spike, Impulsive Hoarder
+	7 Flash Magnus
+	15 Pinkie Pie, Resistance Fighter
+	7 Rainbow Dash, Warbolt
+	7 Zapp
+	7 Philomena
+	7 Cheese Sandwich
+	15 Limestone Pie
+	15 Tank
+	15 DJ Pon-3
+	7 Trixie, Tyrant of Ponyville
+	15 Devastating Blast
+	6 Discord's Command
+	6 Fight with Fire
+	15 Gateway to Tartarus
+	7 Malevolent Storm
+	15 Pinkienado
+	6 Spirit Showdown
+	7 Storm Showdown
+	15 Talisman of Conviction
+	6 Talisman of Creativity
+	15 Talisman of Unity
+	15 Talisman of Resilience
+	15 Talisman of Indulgence
+	15 Talisman of Impulse
+	15 Talisman of Hierarchy
+	15 Talisman of Dominance
+	15 Talisman of Curiosity
+	7 The Cutie Map
+	6 Tatzlwurm
+	15 Thorax, Peacemaker
+	7 Revel in Riches
+	6 Turn to Stone
+	15 Shadowbolts
+	15 Spoiled Rich
+	7 Shadow Bolt
+	7 Hoarding Broodlord
+	7 Ember, Glory Seeker
+	7 Friendship's Truce
+	6 Reckless Dragon
+	6 Applejack's Intervention
+	7 Midnight Clock
+	6 Blazing Entrance
+	6 Dragon Summit
+	7 Hellkite Tyrant
+	15 Cloudchaser
+	7 Discord, Friend to All
+	15 Holder's Boulder
+	7 Warlord Sombra
+	15 Tirek, Insatiable Hunger
+	7 Sludge
+	15 Chancellor Neighsay
+	15 Griffon Signet
+	7 Ursa Major
+	15 Trixie the Great and Powerful
+	15 Gallus
+	7 Silverstream
+	7 Sandbar
+	7 Ocellus
+	7 Yona
+	15 Lapis Signet
+	15 Sold Ring
+	15 Jungle Signet
+	15 Coldsteel Heart
+	15 Bewitching Signet
+	6 Signet of Magic
+	7 Twilight Sparkle, Royal Pupil
+	7 The Binding of Discord
+	15 Idol of Discord
+	7 RIP Friendship Lesson
+	7 EEA Stamp
+	7 Anointed Procession
+	7 Austere Command
+	6 Fleetfoot
+	7 Cupcake Battle
+	7 Discord's Meddling
+	6 Ponder
+	6 Preordain
+	6 Opt
+	6 Contemplate
+	7 Wishing Flower
+	15 Nirik
+	15 Sans Smirk
+	6 Loose Tracks
+	4 Legion of Evil
+	15 Cozy Glow, Unleashed
+	15 Sombra's Corrupting Shadow
+	15 Biscuit & Spur
+	15 Mudbriar
+	7 Animal Support Group
+	15 The Smooze
+	15 Little Strongheart
+	7 Parallel Lives
+	7 Fated Union
+	7 Shining Armor & Cadence
+	7 Stygian's Transformation
+	15 Birth of Harmony
+	15 A.K.Yearling
+	15 Shade of Applejack
+	15 Shade of Pinkie Pie
+	15 Shade of Twilight
+	15 Shade of Fluttershy
+	15 Shade of Rainbow Dash
+	15 Hoity Toity
+	7 Chrysalis, Vengeant
+	15 Monster Apple
+	15 Summer Sun Celebration
+	6 Farseek
+	15 Snap Shutter
+	15 Mane Allgood
+	6 Yovidaphonist
+	15 Washouts
+	15 Lightning Dust, Washout
+	15 Commander Ironhead
+	7 Starlight & Trixie
+	15 Hoo'Far
+	7 Captain Wuzz
+	7 Sir McBiggun
+	15 Bite-acudas
+	15 Feather Bangs
+	15 Wander the Dream Bubbles
+	15 Untested Stunt
+	7 Thorax, Enraged
+	15 Svengallop
+	15 Ma & Big Daddy
+	15 Cleansing Flames
+	7 Sunburst
+	6 Wayfarer's Bauble
+	15 Thought Vessel
+	4 Shipping Wars
+	15 Musical Medley
+	15 Tirek Cast into Tartarus
+	6 Nightmare Angel
+	7 Mayor Mare
+	15 Gorge Surfing
+	6 Goldie Delicious
+	7 Mane-iac
+	7 Princess Luna
+	15 Obsessed Fans
+	7 Enchantress Zecora
+	4 Chrysalis, Unveiled
+	7 Cozy Glow, Master Manipulator
+	7 Enchanted Pool
+	7 Klugetown
+	6 Breezies
+	15 Clump
+	7 Cozy Glow, Hapless Friend
+	15 Opalescence
+	6 Timberwolves
+	15 Apple Split
+	15 Arimaspi's Bones
+	7 Bloofy
+	4 Chrysalis, Throne Usurper
+	15 Henchponies
+	7 Lyra & Bon Bon, Wed
+	15 Marble Pie
+	15 Mr & Mrs Cake
+	7 Music Box Spell
+	15 Neighsay
+	7 Night Light & Twilight Velvet
+	15 Shade of Rarity
+	6 Snails
+	6 Snips
+	15 Stygian, Scorned
+	7 Ahuizotl
+	7 Big Bucks & Jack Pot
+	7 Bow Hothoof & Windy Whistles
+	6 Cobalt Dragon
+	7 Coriander Cumin & Saffron Masala
+	7 Dr. Hooves
+	7 Fluttergoth
+	7 Mage Meadowbrook
+	7 Masked Matter-Horn
+	7 Maud Pie
+	15 Prize Apple
+	4 Rainbow Dash
+	7 Smolder
+	7 Sombra, Crystal Shade
+	7 The Cutie Mark Crusaders
+	7 The Evil Squizard
+	6 Tunnel Eel
+	7 Applejack, Requisitions Officer
+	7 Autumn Blaze
+	15 Changeling Flames
+	6 Crackle
+	7 DJ Pone-3 & Octavia
+	7 Dr. Caballeron
+	7 Fluttershy, Dragonkeeper
+	7 Garbunkle
+	15 Gladmane
+	7 Rain Shine
+	7 Riddle of Replication
+	7 Stygian, Pony of Shadows
+	7 The Crystalling
+	15 Tirek & Discord's Reign
+	7 Chrysalis, Hive Queen
+	15 Great Seedling
+	7 Orchard Blossom
+	7 Prince Rutherford
+	7 Spitfire
+	7 Fili-Second
+	15 Grand Pear
+	7 Sadistic Sphinx
+	15 Tantabus
+	7 Whoa Nelly
+	7 Chief Thunderhooves
+	7 Daybreaker
+	6 Mane-iac's Henchponies
+	15 Dubious Delicacy
+	15 Crystal Spike
+	4 Luna
+	4 Discord, Lord of Disharmony
+	6 Quench
+	6 Half-Baked Apple
+	4 The Crystal Heart
+	7 Radiance
+	4 Elements of Harmony
+	7 The Magic of Friendship Grows
+	15 Silver Spoon
+	7 Fleur De Lis
+	7 Fluttershy, Resistance Fighter
+	7 Villainous Quest
+	15 Flurry Heart
