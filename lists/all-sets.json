@@ -4,6 +4,16 @@
             "set_code": "MLC",
             "set_name": "My Little Pony Commander Cube",
             "formats": ""
+        },
+        {
+            "set_code": "SCK",
+            "set_name": "Salio Creek",
+            "formats": ""
+        },
+        {
+            "set_code": "WST",
+            "set_name": "Wrath of the Storm King",
+            "formats": ""
         }
     ]
 }

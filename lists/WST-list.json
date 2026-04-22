@@ -1,0 +1,513 @@
+﻿[
+    {
+        "card_name": "Fill the Ranks",
+        "number": 2,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "Enchanted Vortex",
+        "number": 8,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "Capper",
+        "number": 13,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "Crackle with Power",
+        "number": 20,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "Comforting Chat",
+        "number": 29,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "From the Brink",
+        "number": 3,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "Festival Balloons",
+        "number": 9,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "Grappling Shot",
+        "number": 16,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "Invasion Dreadnaught",
+        "number": 22,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Calaeno's Crew",
+        "number": 28,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "Harmony Restored",
+        "number": 4,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "Foolproof Plan",
+        "number": 10,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "Suffocating Waters",
+        "number": 18,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Pinkieball",
+        "number": 23,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Shredding Gale",
+        "number": 30,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "Dazzling Recovery",
+        "number": 1,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "Princess Skystar",
+        "number": 11,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "Double Crossed",
+        "number": 14,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "Songbird Serenade",
+        "number": 24,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "Storm Guard",
+        "number": 31,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "Rallying Call",
+        "number": 5,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "Queen Novo",
+        "number": 12,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "Intensifying Regime",
+        "number": 17,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "Storm King's Mastery",
+        "number": 27,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "Storm Warriors",
+        "number": 32,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Triumphant Maelstrom",
+        "number": 6,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Deem Unworthy",
+        "number": 7,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "Duress",
+        "number": 15,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Cargo Detonation",
+        "number": 19,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Flames of Friendship",
+        "number": 21,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Spike, Parched",
+        "number": 25,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Storm King's Call",
+        "number": 26,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Underwater Adaptation",
+        "number": 45,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "Petrifying Smog",
+        "number": 41,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "Echoing Shock",
+        "number": 37,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "Elements of Power",
+        "number": 38,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "Collected Crew",
+        "number": 36,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Kick Through",
+        "number": 40,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Abandoned Cage",
+        "number": 34,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Staff of Sacanas",
+        "number": 33,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "Grubber",
+        "number": 39,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "Rainboom Beacon",
+        "number": 42,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "Captain Celaeno",
+        "number": 35,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Storm King",
+        "number": 43,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "Tempest Shadow",
+        "number": 44,
+        "shape": "normal",
+        "set": "WST",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Prism Wing",
+        "number": 1,
+        "shape": "token",
+        "set": "WST",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

@@ -1,4 +1,340 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+MLP CUBE QUESTIONS removed.
+MLP CUBE DRAFT TIPS removed.
+MLP CUBE DRAFT TIPS removed.
+MLP CUBE DRAFT TIPS removed.
+MLP CUBE DRAFT TIPS removed.
+MLP CUBE DRAFT TIPS removed.
+MLP CUBE QUESTIONS removed.
+MLP CUBE QUESTIONS removed.
+MLP CUBE QUESTIONS removed.
+MLP CUBE QUESTIONS removed.
+MLP CUBE QUESTIONS removed.
+MLP CUBE QUESTIONS removed.
+MLP CUBE QUESTIONS removed.
+MLP CUBE DRAFT TIPS removed.
+MLP CUBE DRAFT TIPS removed.
+MLP CUBE DRAFT TIPS removed.
+MLP CUBE QUESTIONS removed.
+MLP CUBE FEEDBACK removed.
+MLP CUBE FEEDBACK removed.
+MLP CUBE FEEDBACK removed.
+MLP CUBE FEEDBACK removed.
+MLP CUBE FEEDBACK removed.
+MLP CUBE FEEDBACK removed.
+MLP CUBE FEEDBACK removed.
+MLP CUBE FEEDBACK removed.
+Skrixl the Exiled removed.
+
+The Binding of Nightmare Moon
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Support 5. [i](Put a +1/+1 counter on each of up to five target creatures.)[/i]
+Exile up to one target creature. As long as that card remains exiled its owner may cast it. A spell cast this way costs {2} more to cast.
+Put a flying and lifelink counter on up to one target creature. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Support 5. [i](Put a +1/+1 counter on each of up to five target creatures.)[/i]
+II — Exile up to one target creature. As long as that card remains exiled its owner may cast it. A spell cast this way costs {2} more to cast.
+III — Put a flying and lifelink counter on up to one target creature.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Support 5. [i](Put a +1/+1 counter on each of up to five target creatures.)[/i]
+Exile up to one target creature. As long as that card remains exiled its owner may cast it. A spell cast this way costs {2} more to cast.
+Put a flying and lifelink counter on up to one target creature. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Support 5. [i](Put a +1/+1 counter on each of up to five target creatures.)[/i]
+II — Exile up to one target creature. As long as that card remains exiled its owner may cast it. A spell cast this way costs {2} more to cast.
+III — Put a flying and lifelink counter on up to one target creature.
+
+The Founding of Ecandya
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Create three Food tokens.
+Put three +1/+1 counters on up to three target noncreature artifacts. They become 0/0 artifact creatures.
+Search your library for a basic land card and put it into your hand, then shuffle.
+IV — Support 3 [i](Put a +1/+1 counter on each of up to three target creatures.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Create three Food tokens.
+II — Put three +1/+1 counters on up to three target noncreature artifacts. They become 0/0 artifact creatures.
+Search your library for a basic land card and put it into your hand, then shuffle.
+III, IV — Support 3 [i](Put a +1/+1 counter on each of up to three target creatures.)[/i]
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Create three Food tokens.
+Put three +1/+1 counters on up to three target noncreature artifacts. They become 0/0 artifact creatures.
+Search your library for a basic land card and put it into your hand, then shuffle.
+IV — Support 3 [i](Put a +1/+1 counter on each of up to three target creatures.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Create three Food tokens.
+II — Put three +1/+1 counters on up to three target noncreature artifacts. They become 0/0 artifact creatures.
+Search your library for a basic land card and put it into your hand, then shuffle.
+III, IV — Support 3 [i](Put a +1/+1 counter on each of up to three target creatures.)[/i]
+
+The Founding of Equestria
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Create three Food tokens.
+Destroy all Foods. All creatures get -1/-1 until end of turn for each Food destroyed this way.
+Search your library for a basic plains and put it into your hand, then shuffle.
+IV — Put a +1/+1 counter on up to one target Pony, Unicorn, and Pegasus. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Create three Food tokens.
+II — Destroy all Foods. All creatures get -1/-1 until end of turn for each Food destroyed this way.
+Search your library for a basic plains and put it into your hand, then shuffle.
+III, IV — Put a +1/+1 counter on up to one target Pony, Unicorn, and Pegasus.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Create three Food tokens.
+Destroy all Foods. All creatures get -1/-1 until end of turn for each Food destroyed this way.
+Search your library for a basic plains and put it into your hand, then shuffle.
+IV — Put a +1/+1 counter on up to one target Pony, Unicorn, and Pegasus. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Create three Food tokens.
+II — Destroy all Foods. All creatures get -1/-1 until end of turn for each Food destroyed this way.
+Search your library for a basic plains and put it into your hand, then shuffle.
+III, IV — Put a +1/+1 counter on up to one target Pony, Unicorn, and Pegasus.
+
+One Thousand Year Night
+rules_text: 
+All creatures get -5/-5 until end of turn. 
+Exile up to one target creature. As long as that card remains exiled its owner may cast it. A spell cast this way costs {2} more to cast.
+Put a flying and deathtouch counter on up to one target creature. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — All creatures get -5/-5 until end of turn. 
+II — Exile up to one target creature. As long as that card remains exiled its owner may cast it. A spell cast this way costs {2} more to cast.
+III — Put a flying and deathtouch counter on up to one target creature.
+special_text: 
+All creatures get -5/-5 until end of turn. 
+Exile up to one target creature. As long as that card remains exiled its owner may cast it. A spell cast this way costs {2} more to cast.
+Put a flying and deathtouch counter on up to one target creature. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — All creatures get -5/-5 until end of turn. 
+II — Exile up to one target creature. As long as that card remains exiled its owner may cast it. A spell cast this way costs {2} more to cast.
+III — Put a flying and deathtouch counter on up to one target creature.
+
+Reign of Friendship
+rules_text: 
+I — Search your library for a legendary creature card, reveal it, put it into your hand, then shuffle.
+II — Your teammate searches their library for a legendary creature card, reveals it, and puts it into their hand, then shuffles.
+III — Creatures your team controls gain double strike until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Search your library for a legendary creature card, reveal it, put it into your hand, then shuffle.
+II — Your teammate searches their library for a legendary creature card, reveals it, and puts it into their hand, then shuffles.
+III — Creatures your team controls gain double strike until end of turn.
+special_text: 
+I — Search your library for a legendary creature card, reveal it, put it into your hand, then shuffle.
+II — Your teammate searches their library for a legendary creature card, reveals it, and puts it into their hand, then shuffles.
+III — Creatures your team controls gain double strike until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Search your library for a legendary creature card, reveal it, put it into your hand, then shuffle.
+II — Your teammate searches their library for a legendary creature card, reveals it, and puts it into their hand, then shuffles.
+III — Creatures your team controls gain double strike until end of turn.
+
+The Binding of Discord
+rules_text: 
+I — Exile up to one target creature until this enchantment leaves the battlefield.
+II — Up to two target players each create two 1/1 green Pony creature tokens.
+III — Create a Treasure token. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile up to one target creature until this enchantment leaves the battlefield.
+II — Up to two target players each create two 1/1 green Pony creature tokens.
+III — Create a Treasure token.
+special_text: 
+I — Exile up to one target creature until this enchantment leaves the battlefield.
+II — Up to two target players each create two 1/1 green Pony creature tokens.
+III — Create a Treasure token. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile up to one target creature until this enchantment leaves the battlefield.
+II — Up to two target players each create two 1/1 green Pony creature tokens.
+III — Create a Treasure token.
+
+Princess Luna
+
+Obsessed Fans
+
+Dragon
+
+Enchantress Zecora
+
+Chrysalis, Unveiled
+
+Cozy Glow, Master Manipulator
+
+Enchanted Pool
+
+Klugetown
+
+Royal Guards
+
+Breezies
+
+Clump
+
+Cozy Glow, Hapless Friend
+
+Opalescence
+
+Timberwolves
+
+Apple Split
+
+Arimaspi's Bones
+
+Bloofy
+
+Chrysalis, Throne Usurper
+
+Henchponies
+
+Lyra & Bon Bon, Wed
+
+Marble Pie
+
+Mr & Mrs Cake
+
+Music Box Spell
+
+Neighsay
+
+Night Light & Twilight Velvet
+
+Shade of Rarity
+
+Snails
+
+Snips
+
+Stygian, Scorned
+
+Ahuizotl
+
+Big Bucks & Jack Pot
+
+Bow Hothoof & Windy Whistles
+
+Cobalt Dragon
+
+Coriander Cumin & Saffron Masala
+
+Dr. Hooves
+
+Fluttergoth
+
+Mage Meadowbrook
+
+Masked Matter-Horn
+
+Maud Pie
+
+Prize Apple
+
+Rainbow Dash
+
+Smolder
+
+Sombra, Crystal Shade
+
+The Cutie Mark Crusaders
+
+The Evil Squizard
+
+Tunnel Eel
+
+Applejack, Requisitions Officer
+
+Autumn Blaze
+
+Changeling Flames
+
+Crackle
+
+DJ Pone-3 & Octavia
+
+Dr. Caballeron
+
+Fluttershy, Dragonkeeper
+
+Garbunkle
+
+Gladmane
+
+Rain Shine
+
+Riddle of Replication
+
+Stygian, Pony of Shadows
+
+The Crystalling
+
+Tirek & Discord's Reign
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Gain control of up to one target creature for as long as this saga remains on the battlefield.
+This saga gains “Whenever a creature dies, put a +1/+1 counter on target creature you control.”
+Each player sacrifices a creature.
+IV — Target creature you control deals damage equal to its power to target player. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Gain control of up to one target creature for as long as this saga remains on the battlefield.
+II — This saga gains “Whenever a creature dies, put a +1/+1 counter on target creature you control.”
+Each player sacrifices a creature.
+III, IV — Target creature you control deals damage equal to its power to target player.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Gain control of up to one target creature for as long as this saga remains on the battlefield.
+This saga gains “Whenever a creature dies, put a +1/+1 counter on target creature you control.”
+Each player sacrifices a creature.
+IV — Target creature you control deals damage equal to its power to target player. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Gain control of up to one target creature for as long as this saga remains on the battlefield.
+II — This saga gains “Whenever a creature dies, put a +1/+1 counter on target creature you control.”
+Each player sacrifices a creature.
+III, IV — Target creature you control deals damage equal to its power to target player.
+
+Chrysalis, Hive Queen
+
+Great Seedling
+
+Orchard Blossom
+
+Prince Rutherford
+
+Spitfire
+
+Fili-Second
+
+Grand Pear
+
+Sadistic Sphinx
+
+Tantabus
+
+Whoa Nelly
+
+Chief Thunderhooves
+
+Daybreaker
+
+Mane-iac's Henchponies
+
+Dubious Delicacy
+
+Beast
+
+Crystal Spike
+
+Luna
+
+Discord, Lord of Disharmony
+
+Quench
+
+Half-Baked Apple
+
+The Crystal Heart
+
+Radiance
+
+Elements of Harmony
+
+The Magic of Friendship Grows
+
+Silver Spoon
+
+Boulder
+
+Fleur De Lis
+
+Monster Apple
+
+Fluttershy, Resistance Fighter
+
+Villainous Quest
+
+Flurry Heart
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/SCK-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>SCK visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/SCK-files/logo.png" />
+	<img class="preload-hidden" src="../sets/MLC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SCK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/SCK"><img src="../sets/SCK-files/icon.png">Salio Creek</a>
+	
+		<a class="set-bar inactive" href="../previews/MLC"><img src="../sets/MLC-files/icon.png">My Little Pony Commander Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/WST"><img src="../sets/WST-files/icon.png">Wrath of the Storm King</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/SCK-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\SCK-files\img\189.jpg" id="SCK_189" data-flag="@X" onclick="openSidebar('SCK_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\198.jpg" id="SCK_198" data-flag="@X" onclick="openSidebar('SCK_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\210.jpg" id="SCK_210" data-flag="@X" onclick="openSidebar('SCK_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\215.jpg" id="SCK_215" data-flag="@X" onclick="openSidebar('SCK_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\230.jpg" id="SCK_230" data-flag="@X" onclick="openSidebar('SCK_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\195.jpg" id="SCK_195" data-flag="@X" onclick="openSidebar('SCK_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\199.jpg" id="SCK_199" data-flag="@X" onclick="openSidebar('SCK_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\213.jpg" id="SCK_213" data-flag="@X" onclick="openSidebar('SCK_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\216.jpg" id="SCK_216" data-flag="@X" onclick="openSidebar('SCK_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\232.jpg" id="SCK_232" data-flag="@X" onclick="openSidebar('SCK_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\190.jpg" id="SCK_190" data-flag="@X" onclick="openSidebar('SCK_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\206.jpg" id="SCK_206" data-flag="@X" onclick="openSidebar('SCK_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\207.jpg" id="SCK_207" data-flag="@X" onclick="openSidebar('SCK_207',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\217.jpg" id="SCK_217" data-flag="@X" onclick="openSidebar('SCK_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\226.jpg" id="SCK_226" data-flag="@X" onclick="openSidebar('SCK_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\191.jpg" id="SCK_191" data-flag="@X" onclick="openSidebar('SCK_191',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\197.jpg" id="SCK_197" data-flag="@X" onclick="openSidebar('SCK_197',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\208.jpg" id="SCK_208" data-flag="@X" onclick="openSidebar('SCK_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\218.jpg" id="SCK_218" data-flag="@X" onclick="openSidebar('SCK_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\227.jpg" id="SCK_227" data-flag="@X" onclick="openSidebar('SCK_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\192.jpg" id="SCK_192" data-flag="@X" onclick="openSidebar('SCK_192',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\200.jpg" id="SCK_200" data-flag="@X" onclick="openSidebar('SCK_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\209.jpg" id="SCK_209" data-flag="@X" onclick="openSidebar('SCK_209',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\219.jpg" id="SCK_219" data-flag="@X" onclick="openSidebar('SCK_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\228.jpg" id="SCK_228" data-flag="@X" onclick="openSidebar('SCK_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\193.jpg" id="SCK_193" data-flag="@X" onclick="openSidebar('SCK_193',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\201.jpg" id="SCK_201" data-flag="@X" onclick="openSidebar('SCK_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\211.jpg" id="SCK_211" data-flag="@X" onclick="openSidebar('SCK_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\220.jpg" id="SCK_220" data-flag="@X" onclick="openSidebar('SCK_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\229.jpg" id="SCK_229" data-flag="@X" onclick="openSidebar('SCK_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\194.jpg" id="SCK_194" data-flag="@X" onclick="openSidebar('SCK_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\202.jpg" id="SCK_202" data-flag="@X" onclick="openSidebar('SCK_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\212.jpg" id="SCK_212" data-flag="@X" onclick="openSidebar('SCK_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\221.jpg" id="SCK_221" data-flag="@X" onclick="openSidebar('SCK_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\231.jpg" id="SCK_231" data-flag="@X" onclick="openSidebar('SCK_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\196.jpg" id="SCK_196" data-flag="@X" onclick="openSidebar('SCK_196',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\203.jpg" id="SCK_203" data-flag="@X" onclick="openSidebar('SCK_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\214.jpg" id="SCK_214" data-flag="@X" onclick="openSidebar('SCK_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\222.jpg" id="SCK_222" data-flag="@X" onclick="openSidebar('SCK_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\233.jpg" id="SCK_233" data-flag="@X" onclick="openSidebar('SCK_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\92.jpg" id="SCK_92" data-flag="@X" onclick="openSidebar('SCK_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\204.jpg" id="SCK_204" data-flag="@X" onclick="openSidebar('SCK_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\120.jpg" id="SCK_120" data-flag="@X" onclick="openSidebar('SCK_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\223.jpg" id="SCK_223" data-flag="@X" onclick="openSidebar('SCK_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\234.jpg" id="SCK_234" data-flag="@X" onclick="openSidebar('SCK_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\93.jpg" id="SCK_93" data-flag="@X" onclick="openSidebar('SCK_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\205.jpg" id="SCK_205" data-flag="@X" onclick="openSidebar('SCK_205',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\121.jpg" id="SCK_121" data-flag="@X" onclick="openSidebar('SCK_121',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\224.jpg" id="SCK_224" data-flag="@X" onclick="openSidebar('SCK_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\148.jpg" id="SCK_148" data-flag="@X" onclick="openSidebar('SCK_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\94.jpg" id="SCK_94" data-flag="@X" onclick="openSidebar('SCK_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\106.jpg" id="SCK_106" data-flag="@X" onclick="openSidebar('SCK_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\122.jpg" id="SCK_122" data-flag="@X" onclick="openSidebar('SCK_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\225.jpg" id="SCK_225" data-flag="@X" onclick="openSidebar('SCK_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\149.jpg" id="SCK_149" data-flag="@X" onclick="openSidebar('SCK_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\95.jpg" id="SCK_95" data-flag="@X" onclick="openSidebar('SCK_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\107.jpg" id="SCK_107" data-flag="@X" onclick="openSidebar('SCK_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\123.jpg" id="SCK_123" data-flag="@X" onclick="openSidebar('SCK_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\134.jpg" id="SCK_134" data-flag="@X" onclick="openSidebar('SCK_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\150.jpg" id="SCK_150" data-flag="@X" onclick="openSidebar('SCK_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\96.jpg" id="SCK_96" data-flag="@X" onclick="openSidebar('SCK_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\108.jpg" id="SCK_108" data-flag="@X" onclick="openSidebar('SCK_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\124.jpg" id="SCK_124" data-flag="@X" onclick="openSidebar('SCK_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\135.jpg" id="SCK_135" data-flag="@X" onclick="openSidebar('SCK_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\151.jpg" id="SCK_151" data-flag="@X" onclick="openSidebar('SCK_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\97.jpg" id="SCK_97" data-flag="@X" onclick="openSidebar('SCK_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\109.jpg" id="SCK_109" data-flag="@X" onclick="openSidebar('SCK_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\125.jpg" id="SCK_125" data-flag="@X" onclick="openSidebar('SCK_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\136.jpg" id="SCK_136" data-flag="@X" onclick="openSidebar('SCK_136',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\152.jpg" id="SCK_152" data-flag="@X" onclick="openSidebar('SCK_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\98.jpg" id="SCK_98" data-flag="@X" onclick="openSidebar('SCK_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\110.jpg" id="SCK_110" data-flag="@X" onclick="openSidebar('SCK_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\126.jpg" id="SCK_126" data-flag="@X" onclick="openSidebar('SCK_126',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\137.jpg" id="SCK_137" data-flag="@X" onclick="openSidebar('SCK_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\153.jpg" id="SCK_153" data-flag="@X" onclick="openSidebar('SCK_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\99.jpg" id="SCK_99" data-flag="@X" onclick="openSidebar('SCK_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\111.jpg" id="SCK_111" data-flag="@X" onclick="openSidebar('SCK_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\127.jpg" id="SCK_127" data-flag="@X" onclick="openSidebar('SCK_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\138.jpg" id="SCK_138" data-flag="@X" onclick="openSidebar('SCK_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\154.jpg" id="SCK_154" data-flag="@X" onclick="openSidebar('SCK_154',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\100.jpg" id="SCK_100" data-flag="@X" onclick="openSidebar('SCK_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\112.jpg" id="SCK_112" data-flag="@X" onclick="openSidebar('SCK_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\128.jpg" id="SCK_128" data-flag="@X" onclick="openSidebar('SCK_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\139.jpg" id="SCK_139" data-flag="@X" onclick="openSidebar('SCK_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\155.jpg" id="SCK_155" data-flag="@X" onclick="openSidebar('SCK_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\101.jpg" id="SCK_101" data-flag="@X" onclick="openSidebar('SCK_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\113.jpg" id="SCK_113" data-flag="@X" onclick="openSidebar('SCK_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\129.jpg" id="SCK_129" data-flag="@X" onclick="openSidebar('SCK_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\140.jpg" id="SCK_140" data-flag="@X" onclick="openSidebar('SCK_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\156.jpg" id="SCK_156" data-flag="@X" onclick="openSidebar('SCK_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\102.jpg" id="SCK_102" data-flag="@X" onclick="openSidebar('SCK_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\114.jpg" id="SCK_114" data-flag="@X" onclick="openSidebar('SCK_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\130.jpg" id="SCK_130" data-flag="@X" onclick="openSidebar('SCK_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\141.jpg" id="SCK_141" data-flag="@X" onclick="openSidebar('SCK_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\157.jpg" id="SCK_157" data-flag="@X" onclick="openSidebar('SCK_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\103.jpg" id="SCK_103" data-flag="@X" onclick="openSidebar('SCK_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\115.jpg" id="SCK_115" data-flag="@X" onclick="openSidebar('SCK_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\131.jpg" id="SCK_131" data-flag="@X" onclick="openSidebar('SCK_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\142.jpg" id="SCK_142" data-flag="@X" onclick="openSidebar('SCK_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\158.jpg" id="SCK_158" data-flag="@X" onclick="openSidebar('SCK_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\104.jpg" id="SCK_104" data-flag="@X" onclick="openSidebar('SCK_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\116.jpg" id="SCK_116" data-flag="@X" onclick="openSidebar('SCK_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\132.jpg" id="SCK_132" data-flag="@X" onclick="openSidebar('SCK_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\143.jpg" id="SCK_143" data-flag="@X" onclick="openSidebar('SCK_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\159.jpg" id="SCK_159" data-flag="@X" onclick="openSidebar('SCK_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\105.jpg" id="SCK_105" data-flag="@X" onclick="openSidebar('SCK_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\117.jpg" id="SCK_117" data-flag="@X" onclick="openSidebar('SCK_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\133.jpg" id="SCK_133" data-flag="@X" onclick="openSidebar('SCK_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\144.jpg" id="SCK_144" data-flag="@X" onclick="openSidebar('SCK_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\160.jpg" id="SCK_160" data-flag="@X" onclick="openSidebar('SCK_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\35.jpg" id="SCK_35" data-flag="@X" onclick="openSidebar('SCK_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\118.jpg" id="SCK_118" data-flag="@X" onclick="openSidebar('SCK_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\53.jpg" id="SCK_53" data-flag="@X" onclick="openSidebar('SCK_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\145.jpg" id="SCK_145" data-flag="@X" onclick="openSidebar('SCK_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\161.jpg" id="SCK_161" data-flag="@X" onclick="openSidebar('SCK_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\40.jpg" id="SCK_40" data-flag="@X" onclick="openSidebar('SCK_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\119.jpg" id="SCK_119" data-flag="@X" onclick="openSidebar('SCK_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\19.jpg" id="SCK_19" data-flag="@X" onclick="openSidebar('SCK_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\146.jpg" id="SCK_146" data-flag="@X" onclick="openSidebar('SCK_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\7.jpg" id="SCK_7" data-flag="@X" onclick="openSidebar('SCK_7',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\39.jpg" id="SCK_39" data-flag="@X" onclick="openSidebar('SCK_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\29.jpg" id="SCK_29" data-flag="@X" onclick="openSidebar('SCK_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\18.jpg" id="SCK_18" data-flag="@X" onclick="openSidebar('SCK_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\147.jpg" id="SCK_147" data-flag="@X" onclick="openSidebar('SCK_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\65.jpg" id="SCK_65" data-flag="@X" onclick="openSidebar('SCK_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\48.jpg" id="SCK_48" data-flag="@X" onclick="openSidebar('SCK_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\28.jpg" id="SCK_28" data-flag="@X" onclick="openSidebar('SCK_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\45.jpg" id="SCK_45" data-flag="@X" onclick="openSidebar('SCK_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\26.jpg" id="SCK_26" data-flag="@X" onclick="openSidebar('SCK_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\32.jpg" id="SCK_32" data-flag="@X" onclick="openSidebar('SCK_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\15.jpg" id="SCK_15" data-flag="@X" onclick="openSidebar('SCK_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\31.jpg" id="SCK_31" data-flag="@X" onclick="openSidebar('SCK_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\17.jpg" id="SCK_17" data-flag="@X" onclick="openSidebar('SCK_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\24.jpg" id="SCK_24" data-flag="@X" onclick="openSidebar('SCK_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\63.jpg" id="SCK_63" data-flag="@X" onclick="openSidebar('SCK_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\13.jpg" id="SCK_13" data-flag="@X" onclick="openSidebar('SCK_13',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\62.jpg" id="SCK_62" data-flag="@X" onclick="openSidebar('SCK_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\44.jpg" id="SCK_44" data-flag="@X" onclick="openSidebar('SCK_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\25.jpg" id="SCK_25" data-flag="@X" onclick="openSidebar('SCK_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\66.jpg" id="SCK_66" data-flag="@X" onclick="openSidebar('SCK_66',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\37.jpg" id="SCK_37" data-flag="@X" onclick="openSidebar('SCK_37',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\46.jpg" id="SCK_46" data-flag="@X" onclick="openSidebar('SCK_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\52.jpg" id="SCK_52" data-flag="@X" onclick="openSidebar('SCK_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\71.jpg" id="SCK_71" data-flag="@X" onclick="openSidebar('SCK_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\3.jpg" id="SCK_3" data-flag="@X" onclick="openSidebar('SCK_3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\41.jpg" id="SCK_41" data-flag="@X" onclick="openSidebar('SCK_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\80.jpg" id="SCK_80" data-flag="@X" onclick="openSidebar('SCK_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\42.jpg" id="SCK_42" data-flag="@X" onclick="openSidebar('SCK_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\21.jpg" id="SCK_21" data-flag="@X" onclick="openSidebar('SCK_21',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\2.jpg" id="SCK_2" data-flag="@X" onclick="openSidebar('SCK_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\49.jpg" id="SCK_49" data-flag="@X" onclick="openSidebar('SCK_49',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\58.jpg" id="SCK_58" data-flag="@X" onclick="openSidebar('SCK_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\57.jpg" id="SCK_57" data-flag="@X" onclick="openSidebar('SCK_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\22.jpg" id="SCK_22" data-flag="@X" onclick="openSidebar('SCK_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\67.jpg" id="SCK_67" data-flag="@X" onclick="openSidebar('SCK_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\51.jpg" id="SCK_51" data-flag="@X" onclick="openSidebar('SCK_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\0.jpg" id="SCK_0" data-flag="@X" onclick="openSidebar('SCK_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\54.jpg" id="SCK_54" data-flag="@X" onclick="openSidebar('SCK_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\9.jpg" id="SCK_9" data-flag="@X" onclick="openSidebar('SCK_9',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\4.jpg" id="SCK_4" data-flag="@X" onclick="openSidebar('SCK_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\38.jpg" id="SCK_38" data-flag="@X" onclick="openSidebar('SCK_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\59.jpg" id="SCK_59" data-flag="@X" onclick="openSidebar('SCK_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\12.jpg" id="SCK_12" data-flag="@X" onclick="openSidebar('SCK_12',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\11.jpg" id="SCK_11" data-flag="@X" onclick="openSidebar('SCK_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\5.jpg" id="SCK_5" data-flag="@X" onclick="openSidebar('SCK_5',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\36.jpg" id="SCK_36" data-flag="@X" onclick="openSidebar('SCK_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\60.jpg" id="SCK_60" data-flag="@X" onclick="openSidebar('SCK_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\55.jpg" id="SCK_55" data-flag="@X" onclick="openSidebar('SCK_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\70.jpg" id="SCK_70" data-flag="@X" onclick="openSidebar('SCK_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\1.jpg" id="SCK_1" data-flag="@X" onclick="openSidebar('SCK_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\34.jpg" id="SCK_34" data-flag="@X" onclick="openSidebar('SCK_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\30.jpg" id="SCK_30" data-flag="@X" onclick="openSidebar('SCK_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\16.jpg" id="SCK_16" data-flag="@X" onclick="openSidebar('SCK_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\23.jpg" id="SCK_23" data-flag="@X" onclick="openSidebar('SCK_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\64.jpg" id="SCK_64" data-flag="@X" onclick="openSidebar('SCK_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\50.jpg" id="SCK_50" data-flag="@X" onclick="openSidebar('SCK_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\10.jpg" id="SCK_10" data-flag="@X" onclick="openSidebar('SCK_10',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\56.jpg" id="SCK_56" data-flag="@X" onclick="openSidebar('SCK_56',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\72.jpg" id="SCK_72" data-flag="@X" onclick="openSidebar('SCK_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\20.jpg" id="SCK_20" data-flag="@X" onclick="openSidebar('SCK_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\33.jpg" id="SCK_33" data-flag="@X" onclick="openSidebar('SCK_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\47.jpg" id="SCK_47" data-flag="@X" onclick="openSidebar('SCK_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\43.jpg" id="SCK_43" data-flag="@X" onclick="openSidebar('SCK_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\73.jpg" id="SCK_73" data-flag="@X" onclick="openSidebar('SCK_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\6.jpg" id="SCK_6" data-flag="@X" onclick="openSidebar('SCK_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\61.jpg" id="SCK_61" data-flag="@X" onclick="openSidebar('SCK_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\27.jpg" id="SCK_27" data-flag="@X" onclick="openSidebar('SCK_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\8.jpg" id="SCK_8" data-flag="@X" onclick="openSidebar('SCK_8',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\14.jpg" id="SCK_14" data-flag="@X" onclick="openSidebar('SCK_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\69.jpg" id="SCK_69" data-flag="@X" onclick="openSidebar('SCK_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\68.jpg" id="SCK_68" data-flag="@X" onclick="openSidebar('SCK_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\249.jpg" id="SCK_249" data-flag="@X" onclick="openSidebar('SCK_249',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\238.jpg" id="SCK_238" data-flag="@X" onclick="openSidebar('SCK_238',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\237.jpg" id="SCK_237" data-flag="@X" onclick="openSidebar('SCK_237',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\236.jpg" id="SCK_236" data-flag="@X" onclick="openSidebar('SCK_236',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\239.jpg" id="SCK_239" data-flag="@X" onclick="openSidebar('SCK_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\250.jpg" id="SCK_250" data-flag="@X" onclick="openSidebar('SCK_250',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\258.jpg" id="SCK_258" data-flag="@X" onclick="openSidebar('SCK_258',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\241.jpg" id="SCK_241" data-flag="@X" onclick="openSidebar('SCK_241',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\254.jpg" id="SCK_254" data-flag="@X" onclick="openSidebar('SCK_254',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\251.jpg" id="SCK_251" data-flag="@X" onclick="openSidebar('SCK_251',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\260.jpg" id="SCK_260" data-flag="@X" onclick="openSidebar('SCK_260',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\262.jpg" id="SCK_262" data-flag="@X" onclick="openSidebar('SCK_262',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\247.jpg" id="SCK_247" data-flag="@X" onclick="openSidebar('SCK_247',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\257.jpg" id="SCK_257" data-flag="@X" onclick="openSidebar('SCK_257',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\252.jpg" id="SCK_252" data-flag="@X" onclick="openSidebar('SCK_252',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\165.jpg" id="SCK_165" data-flag="@X" onclick="openSidebar('SCK_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\166.jpg" id="SCK_166" data-flag="@X" onclick="openSidebar('SCK_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\168.jpg" id="SCK_168" data-flag="@X" onclick="openSidebar('SCK_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\172.jpg" id="SCK_172" data-flag="@X" onclick="openSidebar('SCK_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\170.jpg" id="SCK_170" data-flag="@X" onclick="openSidebar('SCK_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\169.jpg" id="SCK_169" data-flag="@X" onclick="openSidebar('SCK_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\179.jpg" id="SCK_179" data-flag="@X" onclick="openSidebar('SCK_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\180.jpg" id="SCK_180" data-flag="@X" onclick="openSidebar('SCK_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\177.jpg" id="SCK_177" data-flag="@X" onclick="openSidebar('SCK_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\178.jpg" id="SCK_178" data-flag="@X" onclick="openSidebar('SCK_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\246.jpg" id="SCK_246" data-flag="@X" onclick="openSidebar('SCK_246',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\242.jpg" id="SCK_242" data-flag="@X" onclick="openSidebar('SCK_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\163.jpg" id="SCK_163" data-flag="@X" onclick="openSidebar('SCK_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\245.jpg" id="SCK_245" data-flag="@X" onclick="openSidebar('SCK_245',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\318.jpg" id="SCK_318" data-flag="@X" onclick="openSidebar('SCK_318',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\173.jpg" id="SCK_173" data-flag="@X" onclick="openSidebar('SCK_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\256.jpg" id="SCK_256" data-flag="@X" onclick="openSidebar('SCK_256',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\181.jpg" id="SCK_181" data-flag="@X" onclick="openSidebar('SCK_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\167.jpg" id="SCK_167" data-flag="@X" onclick="openSidebar('SCK_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\243.jpg" id="SCK_243" data-flag="@X" onclick="openSidebar('SCK_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\175.jpg" id="SCK_175" data-flag="@X" onclick="openSidebar('SCK_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\162.jpg" id="SCK_162" data-flag="@X" onclick="openSidebar('SCK_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\176.jpg" id="SCK_176" data-flag="@X" onclick="openSidebar('SCK_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\259.jpg" id="SCK_259" data-flag="@X" onclick="openSidebar('SCK_259',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\164.jpg" id="SCK_164" data-flag="@X" onclick="openSidebar('SCK_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\171.jpg" id="SCK_171" data-flag="@X" onclick="openSidebar('SCK_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\174.jpg" id="SCK_174" data-flag="@X" onclick="openSidebar('SCK_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\244.jpg" id="SCK_244" data-flag="@X" onclick="openSidebar('SCK_244',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\248.jpg" id="SCK_248" data-flag="@X" onclick="openSidebar('SCK_248',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\253.jpg" id="SCK_253" data-flag="@X" onclick="openSidebar('SCK_253',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\255.jpg" id="SCK_255" data-flag="@X" onclick="openSidebar('SCK_255',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\261.jpg" id="SCK_261" data-flag="@X" onclick="openSidebar('SCK_261',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\235.jpg" id="SCK_235" data-flag="@X" onclick="openSidebar('SCK_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\240.jpg" id="SCK_240" data-flag="@X" onclick="openSidebar('SCK_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\182.jpg" id="SCK_182" data-flag="@X" onclick="openSidebar('SCK_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\183.jpg" id="SCK_183" data-flag="@X" onclick="openSidebar('SCK_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\184.jpg" id="SCK_184" data-flag="@X" onclick="openSidebar('SCK_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\185.jpg" id="SCK_185" data-flag="@X" onclick="openSidebar('SCK_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\186.jpg" id="SCK_186" data-flag="@X" onclick="openSidebar('SCK_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\74.jpg" id="SCK_74" data-flag="@X" onclick="openSidebar('SCK_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\79.jpg" id="SCK_79" data-flag="@X" onclick="openSidebar('SCK_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\75.jpg" id="SCK_75" data-flag="@X" onclick="openSidebar('SCK_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\76.jpg" id="SCK_76" data-flag="@X" onclick="openSidebar('SCK_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\77.jpg" id="SCK_77" data-flag="@X" onclick="openSidebar('SCK_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\78.jpg" id="SCK_78" data-flag="@X" onclick="openSidebar('SCK_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\88.jpg" id="SCK_88" data-flag="@X" onclick="openSidebar('SCK_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\89.jpg" id="SCK_89" data-flag="@X" onclick="openSidebar('SCK_89',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\83.jpg" id="SCK_83" data-flag="@X" onclick="openSidebar('SCK_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\84.jpg" id="SCK_84" data-flag="@X" onclick="openSidebar('SCK_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\85.jpg" id="SCK_85" data-flag="@X" onclick="openSidebar('SCK_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\81.jpg" id="SCK_81" data-flag="@X" onclick="openSidebar('SCK_81',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\90.jpg" id="SCK_90" data-flag="@X" onclick="openSidebar('SCK_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\86.jpg" id="SCK_86" data-flag="@X" onclick="openSidebar('SCK_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\82.jpg" id="SCK_82" data-flag="@X" onclick="openSidebar('SCK_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\87.jpg" id="SCK_87" data-flag="@X" onclick="openSidebar('SCK_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\267.jpg" id="SCK_267" data-flag="@X" onclick="openSidebar('SCK_267',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\263.jpg" id="SCK_263" data-flag="@X" onclick="openSidebar('SCK_263',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\264.jpg" id="SCK_264" data-flag="@X" onclick="openSidebar('SCK_264',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\265.jpg" id="SCK_265" data-flag="@X" onclick="openSidebar('SCK_265',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\266.jpg" id="SCK_266" data-flag="@X" onclick="openSidebar('SCK_266',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\268.jpg" id="SCK_268" data-flag="@X" onclick="openSidebar('SCK_268',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\187.jpg" id="SCK_187" data-flag="@X" onclick="openSidebar('SCK_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\188.jpg" id="SCK_188" data-flag="@X" onclick="openSidebar('SCK_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\91.jpg" id="SCK_91" data-flag="@X" onclick="openSidebar('SCK_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\284.jpg" id="SCK_284" data-flag="@X" onclick="openSidebar('SCK_284',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\285.jpg" id="SCK_285" data-flag="@X" onclick="openSidebar('SCK_285',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\286.jpg" id="SCK_286" data-flag="@X" onclick="openSidebar('SCK_286',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\287.jpg" id="SCK_287" data-flag="@X" onclick="openSidebar('SCK_287',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\288.jpg" id="SCK_288" data-flag="@X" onclick="openSidebar('SCK_288',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\289.jpg" id="SCK_289" data-flag="@X" onclick="openSidebar('SCK_289',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\315.jpg" id="SCK_315" data-flag="@X" onclick="openSidebar('SCK_315',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\316.jpg" id="SCK_316" data-flag="@X" onclick="openSidebar('SCK_316',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\281.jpg" id="SCK_281" data-flag="@X" onclick="openSidebar('SCK_281',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\282.jpg" id="SCK_282" data-flag="@X" onclick="openSidebar('SCK_282',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\283.jpg" id="SCK_283" data-flag="@X" onclick="openSidebar('SCK_283',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\290.jpg" id="SCK_290" data-flag="@X" onclick="openSidebar('SCK_290',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\291.jpg" id="SCK_291" data-flag="@X" onclick="openSidebar('SCK_291',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\292.jpg" id="SCK_292" data-flag="@X" onclick="openSidebar('SCK_292',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\269.jpg" id="SCK_269" data-flag="@X" onclick="openSidebar('SCK_269',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\293.jpg" id="SCK_293" data-flag="@X" onclick="openSidebar('SCK_293',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\270.jpg" id="SCK_270" data-flag="@X" onclick="openSidebar('SCK_270',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\294.jpg" id="SCK_294" data-flag="@X" onclick="openSidebar('SCK_294',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\295.jpg" id="SCK_295" data-flag="@X" onclick="openSidebar('SCK_295',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\271.jpg" id="SCK_271" data-flag="@X" onclick="openSidebar('SCK_271',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\272.jpg" id="SCK_272" data-flag="@X" onclick="openSidebar('SCK_272',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\296.jpg" id="SCK_296" data-flag="@X" onclick="openSidebar('SCK_296',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\273.jpg" id="SCK_273" data-flag="@X" onclick="openSidebar('SCK_273',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\317.jpg" id="SCK_317" data-flag="@X" onclick="openSidebar('SCK_317',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\297.jpg" id="SCK_297" data-flag="@X" onclick="openSidebar('SCK_297',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\274.jpg" id="SCK_274" data-flag="@X" onclick="openSidebar('SCK_274',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\275.jpg" id="SCK_275" data-flag="@X" onclick="openSidebar('SCK_275',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\298.jpg" id="SCK_298" data-flag="@X" onclick="openSidebar('SCK_298',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\299.jpg" id="SCK_299" data-flag="@X" onclick="openSidebar('SCK_299',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\276.jpg" id="SCK_276" data-flag="@X" onclick="openSidebar('SCK_276',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\300.jpg" id="SCK_300" data-flag="@X" onclick="openSidebar('SCK_300',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\301.jpg" id="SCK_301" data-flag="@X" onclick="openSidebar('SCK_301',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\302.jpg" id="SCK_302" data-flag="@X" onclick="openSidebar('SCK_302',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\277.jpg" id="SCK_277" data-flag="@X" onclick="openSidebar('SCK_277',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\303.jpg" id="SCK_303" data-flag="@X" onclick="openSidebar('SCK_303',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\304.jpg" id="SCK_304" data-flag="@X" onclick="openSidebar('SCK_304',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\305.jpg" id="SCK_305" data-flag="@X" onclick="openSidebar('SCK_305',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\306.jpg" id="SCK_306" data-flag="@X" onclick="openSidebar('SCK_306',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\278.jpg" id="SCK_278" data-flag="@X" onclick="openSidebar('SCK_278',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\279.jpg" id="SCK_279" data-flag="@X" onclick="openSidebar('SCK_279',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\307.jpg" id="SCK_307" data-flag="@X" onclick="openSidebar('SCK_307',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\308.jpg" id="SCK_308" data-flag="@X" onclick="openSidebar('SCK_308',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\309.jpg" id="SCK_309" data-flag="@X" onclick="openSidebar('SCK_309',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\310.jpg" id="SCK_310" data-flag="@X" onclick="openSidebar('SCK_310',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\280.jpg" id="SCK_280" data-flag="@X" onclick="openSidebar('SCK_280',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\311.jpg" id="SCK_311" data-flag="@X" onclick="openSidebar('SCK_311',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\312.jpg" id="SCK_312" data-flag="@X" onclick="openSidebar('SCK_312',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\313.jpg" id="SCK_313" data-flag="@X" onclick="openSidebar('SCK_313',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SCK-files\img\314.jpg" id="SCK_314" data-flag="@X" onclick="openSidebar('SCK_314',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SCK_e" data-flag="@E" onclick="openSidebar('SCK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SCK_er" data-flag="@E" onclick="openSidebar('SCK_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

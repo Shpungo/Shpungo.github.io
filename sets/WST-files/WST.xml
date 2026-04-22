@@ -1,0 +1,800 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>WST</name>
+			<longname>Wrath of the Storm King</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-04-22</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Foolproof Plan</name>
+			<text>Target player exiles a card in their hand and the top card of their library. Another target player exiles a card in their graveyard and the bottom card of their library. Each nonland card exiled this way becomes plotted. (Its owner may cast it as a sorcery on a later turn without paying its mana cost.)</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/0.jpg" num="10">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Festival Balloons</name>
+			<text>At the beginning of your upkeep, up to one target artifact your team controls becomes a copy of another target nonland permanent your team controls.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/1.jpg" num="9">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Flames of Friendship</name>
+			<text>Creatures your team controls have &quot;Whenever this creature attacks, add {R}. This mana lasts until end of combat.&quot; and &quot;{R}: This creature gets +1/+0 until end of turn.&quot;
+{R}{R}{R}{R}{R}: Untap all attacking creatures. They gain first strike until end of turn. After this phase, there is an additional combat phase. Activate only during your turn and only once each turn.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/2.jpg" num="21">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Kindred Enchantment — Dragon</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Crackle with Power</name>
+			<text>This spell deals five times X damage to each of up to X targets.</text>
+			<set rarity="mythic" picurl="https://Shpungo.github.io/sets/WST-files/img/3.jpg" num="20">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XXXRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Captain Celaeno</name>
+			<text>When this creature enters, create Prism Wing, a 3/2 colorless Vehicle artifact token with &quot;Whenever this creature attacks, attacking creatures gain flying.&quot; and crew 1.
+Whenever you attack, if you control three or more artifacts, put a +1/+1 counter on each attacking creature.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/4.jpg" num="35">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Songbird Serenade</name>
+			<text>Whenever you or your teammate cast a noncreature spell, this creature gets +1/+1 until end of turn and deals damage equal to its power to target opponent.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/5.jpg" num="24">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Pony</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grubber</name>
+			<text>Creatures your team controls have &quot;{T}, Pay 1 life: Add one mana of any color.&quot;</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/6.jpg" num="39">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Princess Skystar</name>
+			<text>Islandwalk (This creature can&apos;t be blocked as long as defending player controls an Island.)
+Whenever you draw a card, you may waterbend {2}. If you do, your teammate draws a card. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {2}.)</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/7.jpg" num="11">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Hippogriff</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Queen Novo</name>
+			<text>Flash
+Islandwalk
+When this creature enters, tap all other creatures.
+Other tapped creatures your team controls have hexproof.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/8.jpg" num="12">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Hippogriff</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Abandoned Cage</name>
+			<text>When this artifact enters, exile target creature an opponent controls until this artifact leaves the battlefield. 
+Whenever a play casts a noncreature spell they lose 3 life.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/9.jpg" num="34">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fill the Ranks</name>
+			<text>You and your teammate may look at the top card of your libraries at any time.
+Once each turn, you or your teammate may cast a creature spell with power 3 or less from the top of their library.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/10.jpg" num="2">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Comforting Chat</name>
+			<text>Choose two creatures your team controls. You and your teammate each draw X cards and the chosen creatures get +X/+X and gain trample until end of turn, where X is the difference between the chosen creatures&apos; powers.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/11.jpg" num="29">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kick Through</name>
+			<text>Target creature you or your teammate controls deals damage equal to its power to target opponent and target creature they control.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/12.jpg" num="40">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Enchanted Vortex</name>
+			<text>When this enchantment enters, exile each instant and sorcery card in you and your teammate&apos;s graveyard. 
+At the beginning of your end step, choose a card at random exiled with this enchantment and cast it without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/13.jpg" num="8">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grappling Shot</name>
+			<text>Target opponent reveals their hand. You choose a nonland permanent card from it. Exile that card. You may cast it for as long as it&apos;s exiled and mana of any type can be spent to cast it. If you cast a spell this way, you lose life equal to its mana value.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/14.jpg" num="16">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cargo Detonation</name>
+			<text>This spell deals X damage to target creature and its controller, where X is the number of artifacts your team controls.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/15.jpg" num="19">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rallying Call</name>
+			<text>When this enchantment enters, look at the top five cards of your library. Reveal any number of creature cards with power 3 or less from among them and put them into your hand. Put the rest on the bottom of your library in a random order.
+Whenever your team gains life, return this enchantment to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/16.jpg" num="5">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spike, Parched</name>
+			<text>Whenever a land enters under a player&apos;s control, this creature deals damage to them equal to the number of lands they control. This ability triggers only once each turn.
+{2}, Discard a land: Draw a card. Any player may activate this ability.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/17.jpg" num="25">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Capper</name>
+			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+Whenever a player draws a card, they lose one life.
+Whenever a creature deals combat damage to a player, each player draws a card.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/18.jpg" num="13">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Cat Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Calaeno&apos;s Crew</name>
+			<text>{T}: Add {G}.
+{T}: Add {G}{G}{G}. Activate only if you control three or more artifacts.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/19.jpg" num="28">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Triumphant Maelstrom</name>
+			<text>Escalate {W} (Pay this cost for each mode chosen beyond the first.)
+Choose one or more — 
+• Target creature gains hexproof until end of turn
+• Target creature gains indestructible until end of turn
+• Target creature gains +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://Shpungo.github.io/sets/WST-files/img/20.jpg" num="6">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Invasion Dreadnaught</name>
+			<text>Flying
+Whenever this vehicle attacks, you may put a creature card from your hand onto the battlefield tapped and attacking. Sacrifice it at the beginning of the next end step.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/21.jpg" num="22">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Petrifying Smog</name>
+			<text>Enchant creature or artifact
+You control enchanted permanent
+Enchanted permanent is an artifact and loses all other types. (It&apos;s not a creature.)</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/22.jpg" num="41">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Storm King&apos;s Call</name>
+			<text>When this enchantment enters, your teammate creates a 1/1 green Pony creature token.
+At the beginning of combat on your turn, target creature gets +X/+0 until end of turn, where X is the number of instant and sorcery cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/23.jpg" num="26">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Deem Unworthy</name>
+			<text>Counter target spell unless its controller pays {X}. If that spell is countered this way, its controller mills twice X cards.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/24.jpg" num="7">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XU</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pinkieball</name>
+			<text>You and your teammate may each put a creature card from your hand onto the battlefield. They gain haste, &quot;When this creature leaves the battlefield it deals damage equal to its power to any target,&quot; and &quot;at the beginning of your end step, sacrifice this creature.&quot;</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/25.jpg" num="23">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Harmony Restored</name>
+			<text>Return to the battlefield all permanent cards in you and your teammate&apos;s graveyard that were put there from the battlefield this turn. Creatures your team controls gain protection from the color of your choice until end of turn. (They can&apos;t be targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn.)</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/26.jpg" num="4">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>From the Brink</name>
+			<text>Choose up to two target permanent cards in you and/or your teammate&apos;s graveyard that were put there from the battlefield this turn. Return them to the battlefield.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/27.jpg" num="3">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shredding Gale</name>
+			<text>Choose one or both — 
+• Destroy target artifact or enchantment.
+• Destroy target creature with flying.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/28.jpg" num="30">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Double Crossed</name>
+			<text>Target opponent discards two cards.
+Target opponent loses life equal to the number of cards in their hand.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/29.jpg" num="14">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Storm King</name>
+			<text>Haste
+Boast — {5}: When target player next casts an instant or sorcery spell this turn, copy it for each spell cast before it this turn. They may choose new targets for the copies. This ability costs {1} less to activate for each attacking creature. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="mythic" picurl="https://Shpungo.github.io/sets/WST-files/img/30.jpg" num="43">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Beast Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UBR</manacost>
+				<cmc>3</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elements of Power</name>
+			<text>Whenever a player taps a land for mana, that player adds one mana of any type that land produced. Then that land deals 1 damage to that player.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/31.jpg" num="38">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Collected Crew</name>
+			<text>Look at the top five cards of you and your teammate&apos;s library. Put up to two creature cards with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of their owner&apos;s library in a random order.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/32.jpg" num="36">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Storm King&apos;s Mastery</name>
+			<text>Storm (When you cast this spell, copy it for each spell cast before it this turn.)
+Choose a graveyard your team controls. Exile an instant or sorcery card at random from it. Copy it, you may cast the copy without paying its mana cost. Exile this spell.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/33.jpg" num="27">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Duress</name>
+			<text>Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</text>
+			<set rarity="common" picurl="https://Shpungo.github.io/sets/WST-files/img/34.jpg" num="15">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Underwater Adaptation</name>
+			<text>Choose X. You may choose the same mode more than once. 
+• Exile target creature. 
+• Exile target creature card in a graveyard with mana value 3 or less. 
+Return the exiled cards to the battlefield under their owner&apos;s control at the beginning of the next end step with a +1/+1 counter on them. They can&apos;t be blocked until the end of your next turn.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/35.jpg" num="45">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XWU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tempest Shadow</name>
+			<text>Whenever you or your teammate cast a noncreature spell, target opponent loses life equal to its mana value.
+When this creature enters, you may cast target instant or sorcery card from you or your teammate&apos;s graveyard. If you cast a spell this way, pay life equal to its mana value rather than paying its mana cost. If that spell would be put into a graveyard, exile it instead.</text>
+			<set rarity="mythic" picurl="https://Shpungo.github.io/sets/WST-files/img/36.jpg" num="44">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Unicorn</type>
+				<maintype>Creature</maintype>
+				<manacost>UBR</manacost>
+				<cmc>3</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Suffocating Waters</name>
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Each player may discard any number of cards.
+Each player loses five life for each card in their hand.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/37.jpg" num="18">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rainboom Beacon</name>
+			<text>Discard your hand. You and your teammate each draw a card for each card you&apos;ve discarded this turn.</text>
+			<set rarity="rare" picurl="https://Shpungo.github.io/sets/WST-files/img/38.jpg" num="42">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Echoing Shock</name>
+			<text>All creatures gain &quot;Whenever this creature is dealt damage, its controller loses that much life.&quot; until end of turn.
+This spell deals 4 damage to target creature.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/39.jpg" num="37">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Storm Guard</name>
+			<text>Whenever one or more +1/+1 counters are put on this creature, put that many +1/+1 counters on each other creature your team controls. This ability triggers only once each turn.
+{3}{G}{G}: Monstrosity 4. (If this creature isn&apos;t monstrous, put four +1/+1 counters on it and it becomes monstrous.)</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/40.jpg" num="31">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Intensifying Regime</name>
+			<text>Target player draws two cards and lose two life. Another target player creates a 1/1 green Pony creature token.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/41.jpg" num="17">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prism Wing WST</name>
+			<text>Whenever this vehicle attacks, attacking creatures gain flying until end of turn.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://Shpungo.github.io/sets/WST-files/img/42.jpg" num="1">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dazzling Recovery</name>
+			<text>Return target creature card from you or your teammate&apos;s graveyard to the battlefield under its owner&apos;s control. Tap each creature your opponents control with power equal to or less than that creature&apos;s power.</text>
+			<set rarity="uncommon" picurl="https://Shpungo.github.io/sets/WST-files/img/43.jpg" num="1">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Staff of Sacanas</name>
+			<text>Whenever a player on your team casts an instant or sorcery spell, copy it for each other instant and sorcery spell a player on your team has cast before it this turn. You may choose new targets for the copies.</text>
+			<set rarity="mythic" picurl="https://Shpungo.github.io/sets/WST-files/img/44.jpg" num="33">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4UR</manacost>
+				<cmc>6</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Storm Warriors</name>
+			<text>Trample
+When this creature dies, your teammate draws a card.</text>
+			<set rarity="common" picurl="https://Shpungo.github.io/sets/WST-files/img/45.jpg" num="32">WST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

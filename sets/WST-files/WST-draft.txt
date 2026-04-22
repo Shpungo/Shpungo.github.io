@@ -1,0 +1,608 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Foolproof Plan",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/0.jpg"
+			}
+		},
+		{
+			"name": "Festival Balloons",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/1.jpg"
+			}
+		},
+		{
+			"name": "Flames of Friendship",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Kindred Enchantment — Dragon",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/2.jpg"
+			}
+		},
+		{
+			"name": "Crackle with Power",
+			"rarity": "mythic",
+			"mana_cost": "{X}{X}{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/3.jpg"
+			}
+		},
+		{
+			"name": "Captain Celaeno",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Bird Pirate",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/4.jpg"
+			}
+		},
+		{
+			"name": "Songbird Serenade",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Pony",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/5.jpg"
+			}
+		},
+		{
+			"name": "Grubber",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/6.jpg"
+			}
+		},
+		{
+			"name": "Princess Skystar",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Hippogriff",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/7.jpg"
+			}
+		},
+		{
+			"name": "Queen Novo",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Hippogriff",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/8.jpg"
+			}
+		},
+		{
+			"name": "Abandoned Cage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Artifact",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/9.jpg"
+			}
+		},
+		{
+			"name": "Fill the Ranks",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/10.jpg"
+			}
+		},
+		{
+			"name": "Comforting Chat",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Sorcery",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/11.jpg"
+			}
+		},
+		{
+			"name": "Kick Through",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/12.jpg"
+			}
+		},
+		{
+			"name": "Enchanted Vortex",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/13.jpg"
+			}
+		},
+		{
+			"name": "Grappling Shot",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/14.jpg"
+			}
+		},
+		{
+			"name": "Cargo Detonation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/15.jpg"
+			}
+		},
+		{
+			"name": "Rallying Call",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/16.jpg"
+			}
+		},
+		{
+			"name": "Spike, Parched",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/17.jpg"
+			}
+		},
+		{
+			"name": "Capper",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Legendary Creature — Cat Rogue",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/18.jpg"
+			}
+		},
+		{
+			"name": "Calaeno's Crew",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Bird Pirate",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/19.jpg"
+			}
+		},
+		{
+			"name": "Triumphant Maelstrom",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/20.jpg"
+			}
+		},
+		{
+			"name": "Invasion Dreadnaught",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/21.jpg"
+			}
+		},
+		{
+			"name": "Petrifying Smog",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/22.jpg"
+			}
+		},
+		{
+			"name": "Storm King's Call",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Enchantment",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/23.jpg"
+			}
+		},
+		{
+			"name": "Deem Unworthy",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{U}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/24.jpg"
+			}
+		},
+		{
+			"name": "Pinkieball",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/25.jpg"
+			}
+		},
+		{
+			"name": "Harmony Restored",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/26.jpg"
+			}
+		},
+		{
+			"name": "From the Brink",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/27.jpg"
+			}
+		},
+		{
+			"name": "Shredding Gale",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/28.jpg"
+			}
+		},
+		{
+			"name": "Double Crossed",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/29.jpg"
+			}
+		},
+		{
+			"name": "Storm King",
+			"rarity": "mythic",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Legendary Creature — Beast Wizard",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/30.jpg"
+			}
+		},
+		{
+			"name": "Elements of Power",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/31.jpg"
+			}
+		},
+		{
+			"name": "Collected Crew",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Instant",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/32.jpg"
+			}
+		},
+		{
+			"name": "Storm King's Mastery",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/33.jpg"
+			}
+		},
+		{
+			"name": "Duress",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/34.jpg"
+			}
+		},
+		{
+			"name": "Underwater Adaptation",
+			"rarity": "rare",
+			"mana_cost": "{X}{W}{U}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/35.jpg"
+			}
+		},
+		{
+			"name": "Tempest Shadow",
+			"rarity": "mythic",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Legendary Creature — Unicorn",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/36.jpg"
+			}
+		},
+		{
+			"name": "Suffocating Waters",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/37.jpg"
+			}
+		},
+		{
+			"name": "Rainboom Beacon",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/38.jpg"
+			}
+		},
+		{
+			"name": "Echoing Shock",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/39.jpg"
+			}
+		},
+		{
+			"name": "Storm Guard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/40.jpg"
+			}
+		},
+		{
+			"name": "Intensifying Regime",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/41.jpg"
+			}
+		},
+		{
+			"name": "Prism Wing",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Vehicle",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/42.jpg"
+			}
+		},
+		{
+			"name": "Dazzling Recovery",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/43.jpg"
+			}
+		},
+		{
+			"name": "Staff of Sacanas",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{R}",
+			"type": "Legendary Artifact",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/44.jpg"
+			}
+		},
+		{
+			"name": "Storm Warriors",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Shpungo.github.io/sets/WST-files/img/45.jpg"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Foolproof Plan
+	2 Festival Balloons
+	1 Crackle with Power
+	2 Captain Celaeno
+	2 Songbird Serenade
+	2 Grubber
+	2 Princess Skystar
+	2 Queen Novo
+	2 Fill the Ranks
+	2 Comforting Chat
+	2 Enchanted Vortex
+	2 Grappling Shot
+	2 Capper
+	2 Invasion Dreadnaught
+	2 Petrifying Smog
+	2 Pinkieball
+	2 Harmony Restored
+	2 From the Brink
+	1 Storm King
+	2 Elements of Power
+	2 Collected Crew
+	2 Storm King's Mastery
+	2 Underwater Adaptation
+	1 Tempest Shadow
+	2 Suffocating Waters
+	2 Rainboom Beacon
+	1 Staff of Sacanas
+[uncommon(3)]
+	4 Flames of Friendship
+	4 Abandoned Cage
+	4 Kick Through
+	4 Cargo Detonation
+	4 Rallying Call
+	4 Spike, Parched
+	4 Calaeno's Crew
+	4 Storm King's Call
+	4 Deem Unworthy
+	4 Shredding Gale
+	4 Double Crossed
+	4 Echoing Shock
+	4 Storm Guard
+	4 Intensifying Regime
+	4 Dazzling Recovery
+[common(6)]
+	8 Triumphant Maelstrom
+	8 Duress
+	8 Storm Warriors
+[common | masterpiece(1)]
+	8 Triumphant Maelstrom
+	8 Duress
+	8 Storm Warriors
+[foil(1)]
+	2 Foolproof Plan
+	2 Festival Balloons
+	6 Flames of Friendship
+	1 Crackle with Power
+	2 Captain Celaeno
+	2 Songbird Serenade
+	2 Grubber
+	2 Princess Skystar
+	2 Queen Novo
+	6 Abandoned Cage
+	2 Fill the Ranks
+	2 Comforting Chat
+	6 Kick Through
+	2 Enchanted Vortex
+	2 Grappling Shot
+	6 Cargo Detonation
+	6 Rallying Call
+	6 Spike, Parched
+	2 Capper
+	6 Calaeno's Crew
+	12 Triumphant Maelstrom
+	2 Invasion Dreadnaught
+	2 Petrifying Smog
+	6 Storm King's Call
+	6 Deem Unworthy
+	2 Pinkieball
+	2 Harmony Restored
+	2 From the Brink
+	6 Shredding Gale
+	6 Double Crossed
+	1 Storm King
+	2 Elements of Power
+	2 Collected Crew
+	2 Storm King's Mastery
+	12 Duress
+	2 Underwater Adaptation
+	1 Tempest Shadow
+	2 Suffocating Waters
+	2 Rainboom Beacon
+	6 Echoing Shock
+	6 Storm Guard
+	6 Intensifying Regime
+	6 Dazzling Recovery
+	1 Staff of Sacanas
+	12 Storm Warriors
+[wildcard(1)]
+	7 Foolproof Plan
+	7 Festival Balloons
+	15 Flames of Friendship
+	4 Crackle with Power
+	7 Captain Celaeno
+	7 Songbird Serenade
+	7 Grubber
+	7 Princess Skystar
+	7 Queen Novo
+	15 Abandoned Cage
+	7 Fill the Ranks
+	7 Comforting Chat
+	15 Kick Through
+	7 Enchanted Vortex
+	7 Grappling Shot
+	15 Cargo Detonation
+	15 Rallying Call
+	15 Spike, Parched
+	7 Capper
+	15 Calaeno's Crew
+	6 Triumphant Maelstrom
+	7 Invasion Dreadnaught
+	7 Petrifying Smog
+	15 Storm King's Call
+	15 Deem Unworthy
+	7 Pinkieball
+	7 Harmony Restored
+	7 From the Brink
+	15 Shredding Gale
+	15 Double Crossed
+	4 Storm King
+	7 Elements of Power
+	7 Collected Crew
+	7 Storm King's Mastery
+	6 Duress
+	7 Underwater Adaptation
+	4 Tempest Shadow
+	7 Suffocating Waters
+	7 Rainboom Beacon
+	15 Echoing Shock
+	15 Storm Guard
+	15 Intensifying Regime
+	15 Dazzling Recovery
+	4 Staff of Sacanas
+	6 Storm Warriors
